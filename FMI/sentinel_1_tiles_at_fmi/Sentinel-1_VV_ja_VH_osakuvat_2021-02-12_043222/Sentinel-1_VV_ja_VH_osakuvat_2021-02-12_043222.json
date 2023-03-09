@@ -1,0 +1,108 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "Sentinel-1_VV_ja_VH_osakuvat_2021-02-12_043222",
+  "properties": {
+    "datetime": null,
+    "start_datetime": "2021-02-12T04:32:22Z",
+    "end_datetime": "2021-02-12T04:33:28Z",
+    "orbit": "DESCENDING"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          25.78941,
+          62.405146
+        ],
+        [
+          32.400259,
+          62.305502
+        ],
+        [
+          33.329224,
+          66.628944
+        ],
+        [
+          25.579662,
+          66.749975
+        ],
+        [
+          25.78941,
+          62.405146
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "license",
+      "href": "https://sentinels.copernicus.eu/documents/247904/690755/Sentinel_Data_Legal_Notice",
+      "title": "License"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Sentinel-1 backscatter tiles: VV and VH polarisation."
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Sentinel-1 backscatter tiles: VV and VH polarisation."
+    }
+  ],
+  "assets": {
+    "vv": {
+      "href": "https://pta.data.lit.fmi.fi/sen1/s1_grd_vv_prep/S1_processed_20210212_043222_043328_036552_044AFC_VV.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "vv",
+      "roles": [
+        "data"
+      ]
+    },
+    "vh": {
+      "href": "https://pta.data.lit.fmi.fi/sen1/s1_grd_vh_prep/S1_processed_20210212_043222_043328_036552_044AFC_VH.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "vh",
+      "roles": [
+        "data"
+      ]
+    },
+    "metadata": {
+      "href": "https://pta.data.lit.fmi.fi/sen1/s1_grd_meta_prep/S1_processed_20210212_043222_043328_036552_044AFC.dim",
+      "title": "metadata",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "bbox": [
+    25.5796624313395,
+    62.3055020815636,
+    33.3292241525572,
+    66.7499749428749
+  ],
+  "stac_extensions": [],
+  "collection": "sentinel_1_tiles_at_fmi",
+  "gsd": 19.999999999999996,
+  "proj:epsg": "EPSG:3067",
+  "proj:transform": [
+    19.999999999999996,
+    0.0,
+    437438.8285210815,
+    0.0,
+    -19.999999999999996,
+    7404220.96079485,
+    0.0,
+    0.0,
+    1.0
+  ]
+}

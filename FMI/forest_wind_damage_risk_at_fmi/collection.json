@@ -1,0 +1,98 @@
+{
+  "type": "Collection",
+  "id": "forest_wind_damage_risk_at_fmi",
+  "stac_version": "1.0.0",
+  "description": "Forest storm damage risk map. Resolution: 16m. Covered area: Finland",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "metadata",
+      "href": "https://metsainfo.luke.fi/fi/cms/tuulituhoriskikartta/tuulituhoriskit-kysymykset",
+      "title": "Metadata"
+    },
+    {
+      "rel": "item",
+      "href": "./Myrskytuhoriskikartta_2015/Myrskytuhoriskikartta_2015.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [],
+  "title": "Forest wind damage risk map.",
+  "summaries": {
+    "bands": [
+      {
+        "name": "myrskytuhoriski"
+      }
+    ],
+    "datetime": {
+      "minimum": "2015-01-01T00:00:00Z",
+      "maximum": "2015-12-31T23:59:59Z"
+    },
+    "visualisation_parameters": {
+      "bands": [
+        {
+          "band": "myrskytuhoriski",
+          "min": 0,
+          "max": 0.2
+        }
+      ]
+    }
+  },
+  "derived_from": "https://pta.data.lit.fmi.fi/stac/catalog/Myrskytuhoriskikartta/Myrskytuhoriskikartta.json",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          15.887182,
+          59.574713,
+          33.105317,
+          69.743673
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2015-01-01T00:00:00Z",
+          "2015-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "providers": [
+    {
+      "name": "FMI",
+      "roles": [
+        "host"
+      ],
+      "url": "https://en.ilmatieteenlaitos.fi/"
+    },
+    {
+      "name": "LUKE",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://www.luke.fi/en"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://metsainfo.luke.fi/fi/cms/tuulituhoriskikartta/tuulituhoriskit-kysymykset",
+      "title": "Metadata",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}

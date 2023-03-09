@@ -1,0 +1,439 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "Metsavarateema_2009_2013",
+  "properties": {
+    "datetime": null,
+    "start_datetime": "2009-01-01T00:00:00Z",
+    "end_datetime": "2013-12-31T23:59:59Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          19.283219,
+          59.334496
+        ],
+        [
+          31.125179,
+          59.49799
+        ],
+        [
+          33.127189,
+          70.006149
+        ],
+        [
+          15.597158,
+          69.742963
+        ],
+        [
+          19.283219,
+          59.334496
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Multi-source forest inventory products."
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Multi-source forest inventory products."
+    }
+  ],
+  "assets": {
+    "bm_manty_runkokuori": {
+      "href": "https://pta.data.lit.fmi.fi/mvmi/bm_manty_runkokuori/bm_manty_runkokuori_vmi1x_0913.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "bm_manty_runkokuori",
+      "roles": [
+        "data"
+      ]
+    },
+    "bm_lehtip_runkokuori": {
+      "href": "https://pta.data.lit.fmi.fi/mvmi/bm_lehtip_runkokuori/bm_lehtip_runkokuori_vmi1x_0913.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "bm_lehtip_runkokuori",
+      "roles": [
+        "data"
+      ]
+    },
+    "bm_kuusi_runkokuori": {
+      "href": "https://pta.data.lit.fmi.fi/mvmi/bm_kuusi_runkokuori/bm_kuusi_runkokuori_vmi1x_0913.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "bm_kuusi_runkokuori",
+      "roles": [
+        "data"
+      ]
+    },
+    "bm_manty_juuret": {
+      "href": "https://pta.data.lit.fmi.fi/mvmi/bm_manty_juuret/bm_manty_juuret_vmi1x_0913.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "bm_manty_juuret",
+      "roles": [
+        "data"
+      ]
+    },
+    "bm_kuusi_juuret": {
+      "href": "https://pta.data.lit.fmi.fi/mvmi/bm_kuusi_juuret/bm_kuusi_juuret_vmi1x_0913.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "bm_kuusi_juuret",
+      "roles": [
+        "data"
+      ]
+    },
+    "bm_lehtip_juuret": {
+      "href": "https://pta.data.lit.fmi.fi/mvmi/bm_lehtip_juuret/bm_lehtip_juuret_vmi1x_0913.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "bm_lehtip_juuret",
+      "roles": [
+        "data"
+      ]
+    },
+    "bm_manty_kanto": {
+      "href": "https://pta.data.lit.fmi.fi/mvmi/bm_manty_kanto/bm_manty_kanto_vmi1x_0913.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "bm_manty_kanto",
+      "roles": [
+        "data"
+      ]
+    },
+    "bm_kuusi_kanto": {
+      "href": "https://pta.data.lit.fmi.fi/mvmi/bm_kuusi_kanto/bm_kuusi_kanto_vmi1x_0913.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "bm_kuusi_kanto",
+      "roles": [
+        "data"
+      ]
+    },
+    "bm_lehtip_kanto": {
+      "href": "https://pta.data.lit.fmi.fi/mvmi/bm_lehtip_kanto/bm_lehtip_kanto_vmi1x_0913.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "bm_lehtip_kanto",
+      "roles": [
+        "data"
+      ]
+    },
+    "bm_manty_neulaset": {
+      "href": "https://pta.data.lit.fmi.fi/mvmi/bm_manty_neulaset/bm_manty_neulaset_vmi1x_0913.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "bm_manty_neulaset",
+      "roles": [
+        "data"
+      ]
+    },
+    "bm_kuusi_neulaset": {
+      "href": "https://pta.data.lit.fmi.fi/mvmi/bm_kuusi_neulaset/bm_kuusi_neulaset_vmi1x_0913.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "bm_kuusi_neulaset",
+      "roles": [
+        "data"
+      ]
+    },
+    "bm_lehtip_neulaset": {
+      "href": "https://pta.data.lit.fmi.fi/mvmi/bm_lehtip_neulaset/bm_lehtip_neulaset_vmi1x_0913.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "bm_lehtip_neulaset",
+      "roles": [
+        "data"
+      ]
+    },
+    "bm_manty_latva": {
+      "href": "https://pta.data.lit.fmi.fi/mvmi/bm_manty_latva/bm_manty_latva_vmi1x_0913.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "bm_manty_latva",
+      "roles": [
+        "data"
+      ]
+    },
+    "bm_kuusi_latva": {
+      "href": "https://pta.data.lit.fmi.fi/mvmi/bm_kuusi_latva/bm_kuusi_latva_vmi1x_0913.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "bm_kuusi_latva",
+      "roles": [
+        "data"
+      ]
+    },
+    "bm_lehtip_latva": {
+      "href": "https://pta.data.lit.fmi.fi/mvmi/bm_lehtip_latva/bm_lehtip_latva_vmi1x_0913.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "bm_lehtip_latva",
+      "roles": [
+        "data"
+      ]
+    },
+    "bm_manty_elavatoksat": {
+      "href": "https://pta.data.lit.fmi.fi/mvmi/bm_manty_elavatoksat/bm_manty_elavatoksat_vmi1x_0913.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "bm_manty_elavatoksat",
+      "roles": [
+        "data"
+      ]
+    },
+    "bm_kuusi_elavatoksat": {
+      "href": "https://pta.data.lit.fmi.fi/mvmi/bm_kuusi_elavatoksat/bm_kuusi_elavatoksat_vmi1x_0913.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "bm_kuusi_elavatoksat",
+      "roles": [
+        "data"
+      ]
+    },
+    "bm_lehtip_elavatoksat": {
+      "href": "https://pta.data.lit.fmi.fi/mvmi/bm_lehtip_elavatoksat/bm_lehtip_elavatoksat_vmi1x_0913.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "bm_lehtip_elavatoksat",
+      "roles": [
+        "data"
+      ]
+    },
+    "bm_manty_kuolleetoksat": {
+      "href": "https://pta.data.lit.fmi.fi/mvmi/bm_manty_kuolleetoksat/bm_manty_kuolleetoksat_vmi1x_0913.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "bm_manty_kuolleetoksat",
+      "roles": [
+        "data"
+      ]
+    },
+    "bm_kuusi_kuolleetoksat": {
+      "href": "https://pta.data.lit.fmi.fi/mvmi/bm_kuusi_kuolleetoksat/bm_kuusi_kuolleetoksat_vmi1x_0913.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "bm_kuusi_kuolleetoksat",
+      "roles": [
+        "data"
+      ]
+    },
+    "bm_lehtip_kuolleetoksat": {
+      "href": "https://pta.data.lit.fmi.fi/mvmi/bm_lehtip_kuolleetoksat/bm_lehtip_kuolleetoksat_vmi1x_0913.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "bm_lehtip_kuolleetoksat",
+      "roles": [
+        "data"
+      ]
+    },
+    "ika": {
+      "href": "https://pta.data.lit.fmi.fi/mvmi/ika/ika_vmi1x_0913.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "ika",
+      "roles": [
+        "data"
+      ]
+    },
+    "fra_luokka": {
+      "href": "https://pta.data.lit.fmi.fi/mvmi/fra_luokka/fra_luokka_vmi1x_0913.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "fra_luokka",
+      "roles": [
+        "data"
+      ]
+    },
+    "kasvupaikka": {
+      "href": "https://pta.data.lit.fmi.fi/mvmi/kasvupaikka/kasvupaikka_vmi1x_0913.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "kasvupaikka",
+      "roles": [
+        "data"
+      ]
+    },
+    "keskipituus": {
+      "href": "https://pta.data.lit.fmi.fi/mvmi/keskipituus/keskipituus_vmi1x_0913.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "keskipituus",
+      "roles": [
+        "data"
+      ]
+    },
+    "keskilapimitta": {
+      "href": "https://pta.data.lit.fmi.fi/mvmi/keskilapimitta/keskilapimitta_vmi1x_0913.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "keskilapimitta",
+      "roles": [
+        "data"
+      ]
+    },
+    "kuusitukki": {
+      "href": "https://pta.data.lit.fmi.fi/mvmi/kuusitukki/kuusitukki_vmi1x_0913.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "kuusitukki",
+      "roles": [
+        "data"
+      ]
+    },
+    "kuusikuitu": {
+      "href": "https://pta.data.lit.fmi.fi/mvmi/kuusikuitu/kuusikuitu_vmi1x_0913.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "kuusikuitu",
+      "roles": [
+        "data"
+      ]
+    },
+    "koivutukki": {
+      "href": "https://pta.data.lit.fmi.fi/mvmi/koivutukki/koivutukki_vmi1x_0913.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "koivutukki",
+      "roles": [
+        "data"
+      ]
+    },
+    "koivukuitu": {
+      "href": "https://pta.data.lit.fmi.fi/mvmi/koivukuitu/koivukuitu_vmi1x_0913.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "koivukuitu",
+      "roles": [
+        "data"
+      ]
+    },
+    "mantytukki": {
+      "href": "https://pta.data.lit.fmi.fi/mvmi/mantytukki/mantytukki_vmi1x_0913.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "mantytukki",
+      "roles": [
+        "data"
+      ]
+    },
+    "mantykuitu": {
+      "href": "https://pta.data.lit.fmi.fi/mvmi/mantykuitu/mantykuitu_vmi1x_0913.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "mantykuitu",
+      "roles": [
+        "data"
+      ]
+    },
+    "muulptukki": {
+      "href": "https://pta.data.lit.fmi.fi/mvmi/muulptukki/muulptukki_vmi1x_0913.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "muulptukki",
+      "roles": [
+        "data"
+      ]
+    },
+    "muulpkuitu": {
+      "href": "https://pta.data.lit.fmi.fi/mvmi/muulpkuitu/muulpkuitu_vmi1x_0913.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "muulpkuitu",
+      "roles": [
+        "data"
+      ]
+    },
+    "latvuspeitto": {
+      "href": "https://pta.data.lit.fmi.fi/mvmi/latvuspeitto/latvuspeitto_vmi1x_0913.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "latvuspeitto",
+      "roles": [
+        "data"
+      ]
+    },
+    "lehtip_latvuspeitto": {
+      "href": "https://pta.data.lit.fmi.fi/mvmi/lehtip_latvuspeitto/lehtip_latvuspeitto_vmi1x_0913.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "lehtip_latvuspeitto",
+      "roles": [
+        "data"
+      ]
+    },
+    "manty": {
+      "href": "https://pta.data.lit.fmi.fi/mvmi/manty/manty_vmi1x_0913.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "manty",
+      "roles": [
+        "data"
+      ]
+    },
+    "koivu": {
+      "href": "https://pta.data.lit.fmi.fi/mvmi/koivu/koivu_vmi1x_0913.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "koivu",
+      "roles": [
+        "data"
+      ]
+    },
+    "kuusi": {
+      "href": "https://pta.data.lit.fmi.fi/mvmi/kuusi/kuusi_vmi1x_0913.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "kuusi",
+      "roles": [
+        "data"
+      ]
+    },
+    "muulp": {
+      "href": "https://pta.data.lit.fmi.fi/mvmi/muulp/muulp_vmi1x_0913.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "muulp",
+      "roles": [
+        "data"
+      ]
+    },
+    "maaluokka": {
+      "href": "https://pta.data.lit.fmi.fi/mvmi/maaluokka/maaluokka_vmi1x_0913.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "maaluokka",
+      "roles": [
+        "data"
+      ]
+    },
+    "mista": {
+      "href": "https://pta.data.lit.fmi.fi/mvmi/mista/mista_vmi1x_0913.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "mista",
+      "roles": [
+        "data"
+      ]
+    },
+    "paatyyppi": {
+      "href": "https://pta.data.lit.fmi.fi/mvmi/paatyyppi/paatyyppi_vmi1x_0913.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "paatyyppi",
+      "roles": [
+        "data"
+      ]
+    },
+    "ppa": {
+      "href": "https://pta.data.lit.fmi.fi/mvmi/ppa/ppa_vmi1x_0913.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "ppa",
+      "roles": [
+        "data"
+      ]
+    },
+    "tilavuus": {
+      "href": "https://pta.data.lit.fmi.fi/mvmi/tilavuus/tilavuus_vmi1x_0913.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "tilavuus",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "bbox": [
+    15.5971583224749,
+    59.3344959012209,
+    33.1271893839468,
+    70.0061492245088
+  ],
+  "stac_extensions": [],
+  "collection": "forest_inventory_at_fmi",
+  "gsd": 16.0,
+  "proj:epsg": "EPSG:3067",
+  "proj:transform": [
+    16.0,
+    0.0,
+    61600.0,
+    0.0,
+    -16.0,
+    7778304.0,
+    0.0,
+    0.0,
+    1.0
+  ]
+}

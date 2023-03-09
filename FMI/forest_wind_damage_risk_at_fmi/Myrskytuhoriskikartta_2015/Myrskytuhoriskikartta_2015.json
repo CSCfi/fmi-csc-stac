@@ -1,0 +1,87 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "Myrskytuhoriskikartta_2015",
+  "properties": {
+    "datetime": null,
+    "start_datetime": "2015-01-01T00:00:00Z",
+    "end_datetime": "2015-12-31T23:59:59Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          19.424529,
+          59.574713
+        ],
+        [
+          31.1422,
+          59.728635
+        ],
+        [
+          33.105317,
+          69.989034
+        ],
+        [
+          15.887182,
+          69.743673
+        ],
+        [
+          19.424529,
+          59.574713
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Forest wind damage risk map."
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Forest wind damage risk map."
+    }
+  ],
+  "assets": {
+    "myrskytuhoriski": {
+      "href": "https://pta.data.lit.fmi.fi/luke/fwds/fwds_2015.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "myrskytuhoriski",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "bbox": [
+    15.8871823483084,
+    59.5747130762414,
+    33.1053169981712,
+    69.9890341387902
+  ],
+  "stac_extensions": [],
+  "collection": "forest_wind_damage_risk_at_fmi",
+  "gsd": 16.0,
+  "proj:epsg": "EPSG:9391",
+  "proj:transform": [
+    16.0,
+    0.0,
+    72656.0,
+    0.0,
+    -16.0,
+    7776320.0,
+    0.0,
+    0.0,
+    1.0
+  ]
+}

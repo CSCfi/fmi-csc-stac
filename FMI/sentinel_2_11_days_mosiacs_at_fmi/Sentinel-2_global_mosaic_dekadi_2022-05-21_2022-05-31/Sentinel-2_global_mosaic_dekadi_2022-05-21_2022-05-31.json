@@ -1,0 +1,212 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "Sentinel-2_global_mosaic_dekadi_2022-05-21_2022-05-31",
+  "properties": {
+    "datetime": null,
+    "start_datetime": "2022-05-21T00:00:00Z",
+    "end_datetime": "2022-05-31T23:59:59Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          19.116494,
+          58.680223
+        ],
+        [
+          31.589867,
+          58.840162
+        ],
+        [
+          32.216885,
+          62.916572
+        ],
+        [
+          18.050407,
+          62.727776
+        ],
+        [
+          19.116494,
+          58.680223
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "license",
+      "href": "https://ckan.ymparisto.fi/dataset/sentinel-2-satellite-image-mosaics-s2gm-sentinel-2-satelliittikuvamosaiikki-s2gm",
+      "title": "License"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Sentinel-2 11-days surface reflectance mosaics."
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Sentinel-2 11-days surface reflectance mosaics."
+    }
+  ],
+  "assets": {
+    "b01": {
+      "href": "https://pta.data.lit.fmi.fi/sen2/s2m_b01/s2m_sdr_20220521-20220531_b01_r20m.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "b01",
+      "roles": [
+        "data"
+      ]
+    },
+    "b02": {
+      "href": "https://pta.data.lit.fmi.fi/sen2/s2m_b02/s2m_sdr_20220521-20220531_b02_r20m.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "b02",
+      "roles": [
+        "data"
+      ]
+    },
+    "b03": {
+      "href": "https://pta.data.lit.fmi.fi/sen2/s2m_b03/s2m_sdr_20220521-20220531_b03_r20m.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "b03",
+      "roles": [
+        "data"
+      ]
+    },
+    "b04": {
+      "href": "https://pta.data.lit.fmi.fi/sen2/s2m_b04/s2m_sdr_20220521-20220531_b04_r20m.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "b04",
+      "roles": [
+        "data"
+      ]
+    },
+    "b05": {
+      "href": "https://pta.data.lit.fmi.fi/sen2/s2m_b05/s2m_sdr_20220521-20220531_b05_r20m.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "b05",
+      "roles": [
+        "data"
+      ]
+    },
+    "b06": {
+      "href": "https://pta.data.lit.fmi.fi/sen2/s2m_b06/s2m_sdr_20220521-20220531_b06_r20m.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "b06",
+      "roles": [
+        "data"
+      ]
+    },
+    "b07": {
+      "href": "https://pta.data.lit.fmi.fi/sen2/s2m_b07/s2m_sdr_20220521-20220531_b07_r20m.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "b07",
+      "roles": [
+        "data"
+      ]
+    },
+    "b08": {
+      "href": "https://pta.data.lit.fmi.fi/sen2/s2m_b08/s2m_sdr_20220521-20220531_b08_r20m.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "b08",
+      "roles": [
+        "data"
+      ]
+    },
+    "b8a": {
+      "href": "https://pta.data.lit.fmi.fi/sen2/s2m_b8a/s2m_sdr_20220521-20220531_b8a_r20m.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "b8a",
+      "roles": [
+        "data"
+      ]
+    },
+    "b11": {
+      "href": "https://pta.data.lit.fmi.fi/sen2/s2m_b11/s2m_sdr_20220521-20220531_b11_r20m.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "b11",
+      "roles": [
+        "data"
+      ]
+    },
+    "b12": {
+      "href": "https://pta.data.lit.fmi.fi/sen2/s2m_b12/s2m_sdr_20220521-20220531_b12_r20m.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "b12",
+      "roles": [
+        "data"
+      ]
+    },
+    "view_azimuth_mean": {
+      "href": "https://pta.data.lit.fmi.fi/sen2/s2m_view_azimuth_mean/s2m_sdr_20220521-20220531_view_azimuth_mean_r20m.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "view_azimuth_mean",
+      "roles": [
+        "data"
+      ]
+    },
+    "sun_azimuth": {
+      "href": "https://pta.data.lit.fmi.fi/sen2/s2m_sun_azimuth/s2m_sdr_20220521-20220531_sun_azimuth_r20m.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "sun_azimuth",
+      "roles": [
+        "data"
+      ]
+    },
+    "view_zenith_mean": {
+      "href": "https://pta.data.lit.fmi.fi/sen2/s2m_view_zenith_mean/s2m_sdr_20220521-20220531_view_zenith_mean_r20m.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "view_zenith_mean",
+      "roles": [
+        "data"
+      ]
+    },
+    "sun_zenith": {
+      "href": "https://pta.data.lit.fmi.fi/sen2/s2m_sun_zenith/s2m_sdr_20220521-20220531_sun_zenith_r20m.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "sun_zenith",
+      "roles": [
+        "data"
+      ]
+    },
+    "valid_observations": {
+      "href": "https://pta.data.lit.fmi.fi/sen2/s2m_valid_observations/s2m_sdr_20220521-20220531_valid_observations_r20m.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "valid_observations",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "bbox": [
+    18.0504071329816,
+    58.6802226568997,
+    32.2168849148444,
+    62.9165724544987
+  ],
+  "stac_extensions": [],
+  "collection": "sentinel_2_11_days_mosiacs_at_fmi",
+  "gsd": 20.0,
+  "proj:epsg": "EPSG:32635",
+  "proj:transform": [
+    20.0,
+    0.0,
+    43547.789233191754,
+    0.0,
+    -20.0,
+    6987037.37059886,
+    0.0,
+    0.0,
+    1.0
+  ]
+}

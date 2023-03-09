@@ -1,0 +1,87 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "Latvuskorkeusmalli_2019",
+  "properties": {
+    "datetime": null,
+    "start_datetime": "2019-01-01T00:00:00Z",
+    "end_datetime": "2019-12-31T23:59:59Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          21.115831,
+          59.60899
+        ],
+        [
+          27.0,
+          59.74113
+        ],
+        [
+          27.0,
+          60.992931
+        ],
+        [
+          20.887493,
+          60.853963
+        ],
+        [
+          21.115831,
+          59.60899
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Canopy height model."
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Canopy height model."
+    }
+  ],
+  "assets": {
+    "latvuskorkeusmalli": {
+      "href": "https://pta.data.lit.fmi.fi/smk/chm/FI_FCH_SMK-model_2019.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "latvuskorkeusmalli",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "bbox": [
+    20.887492635466,
+    59.6089895025209,
+    27.0,
+    60.9929312430174
+  ],
+  "stac_extensions": [],
+  "collection": "canopy_height_model_at_fmi",
+  "gsd": 1.0,
+  "proj:epsg": "EPSG:3067",
+  "proj:transform": [
+    1.0,
+    0.0,
+    168215.0,
+    0.0,
+    -1.0,
+    6762000.0,
+    0.0,
+    0.0,
+    1.0
+  ]
+}

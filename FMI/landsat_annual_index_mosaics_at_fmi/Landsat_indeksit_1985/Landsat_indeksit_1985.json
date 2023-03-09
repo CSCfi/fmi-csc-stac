@@ -1,0 +1,132 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "Landsat_indeksit_1985",
+  "properties": {
+    "datetime": null,
+    "start_datetime": "1985-01-01T00:00:00Z",
+    "end_datetime": "1985-12-31T23:59:59Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          19.086988,
+          59.297831
+        ],
+        [
+          33.027972,
+          59.399098
+        ],
+        [
+          36.022096,
+          70.078435
+        ],
+        [
+          15.195462,
+          69.913904
+        ],
+        [
+          19.086988,
+          59.297831
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "license",
+      "href": "https://ckan.ymparisto.fi/dataset/historical-landsat-image-index-mosaics-hind-historialliset-landsat-kuvaindeksimosaiikit-hind",
+      "title": "License"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Landsat (4 and 5) yearly index mosaics: NDVI, NDBI, NDMI, NDSI, NDTI."
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Landsat (4 and 5) yearly index mosaics: NDVI, NDBI, NDMI, NDSI, NDTI."
+    }
+  ],
+  "assets": {
+    "ndbi": {
+      "href": "https://pta.data.lit.fmi.fi/lans/hind/NDBI/pta_sjp_hind_NDBI_1985.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "ndbi",
+      "roles": [
+        "data"
+      ]
+    },
+    "ndmi": {
+      "href": "https://pta.data.lit.fmi.fi/lans/hind/NDMI/pta_sjp_hind_NDMI_1985.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "ndmi",
+      "roles": [
+        "data"
+      ]
+    },
+    "ndsi": {
+      "href": "https://pta.data.lit.fmi.fi/lans/hind/NDSI/pta_sjp_hind_NDSI_1985.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "ndsi",
+      "roles": [
+        "data"
+      ]
+    },
+    "ndti": {
+      "href": "https://pta.data.lit.fmi.fi/lans/hind/NDTI/pta_sjp_hind_NDTI_1985.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "ndti",
+      "roles": [
+        "data"
+      ]
+    },
+    "ndvi": {
+      "href": "https://pta.data.lit.fmi.fi/lans/hind/NDVI/pta_sjp_hind_NDVI_1985.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "ndvi",
+      "roles": [
+        "data"
+      ]
+    },
+    "meta": {
+      "href": "https://pta.data.lit.fmi.fi/lans/hind/META/pta_sjp_hind_META_1985.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "meta",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "bbox": [
+    15.1954616908916,
+    59.2978306139216,
+    36.0220962593533,
+    70.0784354316412
+  ],
+  "stac_extensions": [],
+  "collection": "landsat_annual_index_mosaics_at_fmi",
+  "gsd": 30.0,
+  "proj:epsg": "EPSG:3067",
+  "proj:transform": [
+    30.0,
+    0.0,
+    50000.0,
+    0.0,
+    -30.0,
+    7800000.0,
+    0.0,
+    0.0,
+    1.0
+  ]
+}

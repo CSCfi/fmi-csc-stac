@@ -1,0 +1,100 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "Sentinel-1_VV_ja_VH_daily_mosaiikki_2019-04-25",
+  "properties": {
+    "datetime": "2019-04-25T00:00:00Z",
+    "start_datetime": null,
+    "end_datetime": null
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          19.126701,
+          59.142019
+        ],
+        [
+          31.59008,
+          59.29996
+        ],
+        [
+          33.914567,
+          70.171393
+        ],
+        [
+          15.201358,
+          69.912843
+        ],
+        [
+          19.126701,
+          59.142019
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "license",
+      "href": "https://ckan.ymparisto.fi/dataset/sentinel-1-sar-image-mosaic-s1sar-sentinel-1-sar-kuvamosaiikki-s1sar",
+      "title": "License"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Sentinel-1 daily backscatter mosaics: VV and VH polarisation."
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Sentinel-1 daily backscatter mosaics: VV and VH polarisation."
+    }
+  ],
+  "assets": {
+    "stdev_vv": {
+      "href": "https://pta.data.lit.fmi.fi/daily/s1m_grd_vv_std/s1m_grd_20190425_stdev_VV_R20m.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "stdev_vv",
+      "roles": [
+        "data"
+      ]
+    },
+    "mean_vvvh": {
+      "href": "https://pta.data.lit.fmi.fi/daily/s1m_grd_vvvh_mean/s1m_grd_20190425_mean_VVVH_R20m.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "mean_vvvh",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "bbox": [
+    15.2013583973003,
+    59.142018834023,
+    33.9145670244155,
+    70.1713926276729
+  ],
+  "stac_extensions": [],
+  "collection": "sentinel_1_daily_mosaics_at_fmi",
+  "gsd": 20.0,
+  "proj:epsg": "EPSG:3067",
+  "proj:transform": [
+    20.0,
+    0.0,
+    50199.4814,
+    0.0,
+    -20.0,
+    7799839.8902,
+    0.0,
+    0.0,
+    1.0
+  ]
+}
