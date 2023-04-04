@@ -25,29 +25,8 @@
       "type": "application/json"
     }
   ],
-  "stac_extensions": [],
-  "title": "Canopy height model.",
-  "summaries": {
-    "bands": [
-      {
-        "name": "latvuskorkeusmalli"
-      }
-    ],
-    "datetime": {
-      "minimum": "2019-01-01T00:00:00Z",
-      "maximum": "2019-12-31T23:59:59Z"
-    },
-    "visualisation_parameters": {
-      "bands": [
-        {
-          "name": "latvuskorkeus",
-          "min": 0,
-          "max": 250
-        }
-      ]
-    }
-  },
   "derived_from": "https://pta.data.lit.fmi.fi/stac/catalog/Latvuskorkeusmalli/Latvuskorkeusmalli.json",
+  "title": "Canopy height model.",
   "extent": {
     "spatial": {
       "bbox": [
@@ -86,6 +65,26 @@
       "url": "https://www.metsakeskus.fi/en"
     }
   ],
+  "summaries": {
+    "bands": [
+      {
+        "name": "latvuskorkeusmalli"
+      }
+    ],
+    "datetime": {
+      "minimum": "2019-01-01T00:00:00Z",
+      "maximum": "2019-12-31T23:59:59Z"
+    },
+    "visualisation_parameters": {
+      "bands": [
+        {
+          "name": "latvuskorkeus",
+          "min": 0,
+          "max": 250
+        }
+      ]
+    }
+  },
   "assets": {
     "metadata": {
       "href": "https://www.paikkatietohakemisto.fi/geonetwork/srv/eng/catalog.search#/metadata/8f3b883b-a133-4eee-9f5d-bfd042d782bb",

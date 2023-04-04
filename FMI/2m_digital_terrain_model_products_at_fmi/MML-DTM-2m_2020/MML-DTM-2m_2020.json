@@ -36,11 +36,6 @@
   },
   "links": [
     {
-      "rel": "license",
-      "href": "https://www.maanmittauslaitos.fi/en/opendata-licence-cc40",
-      "title": "License"
-    },
-    {
       "rel": "root",
       "href": "../../catalog.json",
       "type": "application/json"

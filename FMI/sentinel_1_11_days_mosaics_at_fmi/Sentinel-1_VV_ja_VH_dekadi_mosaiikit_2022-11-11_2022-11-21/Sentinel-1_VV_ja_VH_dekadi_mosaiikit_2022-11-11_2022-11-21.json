@@ -36,11 +36,6 @@
   },
   "links": [
     {
-      "rel": "license",
-      "href": "https://ckan.ymparisto.fi/dataset/sentinel-1-sar-image-mosaic-s1sar-sentinel-1-sar-kuvamosaiikki-s1sar",
-      "title": "License"
-    },
-    {
       "rel": "root",
       "href": "../../catalog.json",
       "type": "application/json"

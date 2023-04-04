@@ -36,11 +36,6 @@
   },
   "links": [
     {
-      "rel": "license",
-      "href": "https://ckan.ymparisto.fi/dataset/sentinel-2-satellite-image-mosaics-s2gm-sentinel-2-satelliittikuvamosaiikki-s2gm",
-      "title": "License"
-    },
-    {
       "rel": "root",
       "href": "../../catalog.json",
       "type": "application/json"

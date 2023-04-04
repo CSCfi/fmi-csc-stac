@@ -36,11 +36,6 @@
   },
   "links": [
     {
-      "rel": "license",
-      "href": "https://ckan.ymparisto.fi/dataset/sentinel-2-image-index-mosaics-s2ind-sentinel-2-kuvamosaiikit-s2ind",
-      "title": "License"
-    },
-    {
       "rel": "root",
       "href": "../../catalog.json",
       "type": "application/json"
