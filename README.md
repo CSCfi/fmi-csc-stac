@@ -13,8 +13,11 @@ python fmi_to_geoserver.py
 Password: <Type password here>
 ```
 
-The update script is these above two scripts combined without needing to save the STAC Catalog locally. To run the update script, you need to provide the GeoServer password:
+The update script is these above two scripts combined without needing to save the STAC Catalog locally. To run the update script, you need to provide the host address through the `--host` argument and the GeoServer password via a password-file, through `--pwd` argument or through the CLI:
 ```
-python update_fmi.py
+python update_fmi.py --host <host address> --pwd <GeoServer password>
+```
+```
+python update_fmi.py --host <host address>
 Password: <Type password here>
 ```

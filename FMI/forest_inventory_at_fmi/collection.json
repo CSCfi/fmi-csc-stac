@@ -16,7 +16,7 @@
     },
     {
       "rel": "item",
-      "href": "./Metsavarateema_2005_2009/Metsavarateema_2005_2009.json",
+      "href": "./Metsavarateema_2009_2013/Metsavarateema_2009_2013.json",
       "type": "application/json"
     },
     {
@@ -31,12 +31,12 @@
     },
     {
       "rel": "item",
-      "href": "./Metsavarateema_2012_2016/Metsavarateema_2012_2016.json",
+      "href": "./Metsavarateema_2005_2009/Metsavarateema_2005_2009.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./Metsavarateema_2009_2013/Metsavarateema_2009_2013.json",
+      "href": "./Metsavarateema_2012_2016/Metsavarateema_2012_2016.json",
       "type": "application/json"
     },
     {
@@ -50,8 +50,46 @@
       "type": "application/json"
     }
   ],
-  "stac_extensions": [],
+  "derived_from": "https://pta.data.lit.fmi.fi/stac/catalog/Metsavarateema/Metsavarateema.json",
   "title": "Multi-source forest inventory products.",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          15.597158,
+          59.334496,
+          33.127189,
+          70.006149
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2005-01-01T00:00:00Z",
+          "2019-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "providers": [
+    {
+      "name": "FMI",
+      "roles": [
+        "host"
+      ],
+      "url": "https://en.ilmatieteenlaitos.fi/"
+    },
+    {
+      "name": "LUKE",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://www.luke.fi/en"
+    }
+  ],
   "summaries": {
     "datetime": {
       "minimum": "2005-01-01T00:00:00Z",
@@ -332,45 +370,6 @@
       ]
     }
   },
-  "derived_from": "https://pta.data.lit.fmi.fi/stac/catalog/Metsavarateema/Metsavarateema.json",
-  "extent": {
-    "spatial": {
-      "bbox": [
-        [
-          15.597158,
-          59.334496,
-          33.127189,
-          70.006149
-        ]
-      ]
-    },
-    "temporal": {
-      "interval": [
-        [
-          "2005-01-01T00:00:00Z",
-          "2019-12-31T23:59:59Z"
-        ]
-      ]
-    }
-  },
-  "license": "CC-BY-4.0",
-  "providers": [
-    {
-      "name": "FMI",
-      "roles": [
-        "host"
-      ],
-      "url": "https://en.ilmatieteenlaitos.fi/"
-    },
-    {
-      "name": "LUKE",
-      "roles": [
-        "producer",
-        "licensor"
-      ],
-      "url": "https://www.luke.fi/en"
-    }
-  ],
   "assets": {
     "metadata": {
       "href": "https://www.paikkatietohakemisto.fi/geonetwork/srv/fin/catalog.search#/metadata/0e7ad446-2999-4c94-ad0d-095991d8f80a",

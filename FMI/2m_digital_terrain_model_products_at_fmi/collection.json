@@ -30,45 +30,8 @@
       "type": "application/json"
     }
   ],
-  "stac_extensions": [],
-  "title": "Digital terrain model products: DTM, aspect, slope.",
-  "summaries": {
-    "bands": [
-      {
-        "name": "height"
-      },
-      {
-        "name": "aspect"
-      },
-      {
-        "name": "slope"
-      }
-    ],
-    "datetime": {
-      "minimum": "2020-01-01T00:00:00Z",
-      "maximum": "2020-12-31T23:59:59Z"
-    },
-    "visualisation_parameters": {
-      "bands": [
-        {
-          "band": "height",
-          "min": 0,
-          "max": 600
-        },
-        {
-          "band": "slope",
-          "min": 0,
-          "max": 600
-        },
-        {
-          "band": "aspect",
-          "min": 0,
-          "max": 600
-        }
-      ]
-    }
-  },
   "derived_from": "https://pta.data.lit.fmi.fi/stac/catalog/MML-DTM-2m/MML-DTM-2m.json",
+  "title": "Digital terrain model products: DTM, aspect, slope.",
   "extent": {
     "spatial": {
       "bbox": [
@@ -107,6 +70,42 @@
       "url": "https://www.maanmittauslaitos.fi/en"
     }
   ],
+  "summaries": {
+    "bands": [
+      {
+        "name": "height"
+      },
+      {
+        "name": "aspect"
+      },
+      {
+        "name": "slope"
+      }
+    ],
+    "datetime": {
+      "minimum": "2020-01-01T00:00:00Z",
+      "maximum": "2020-12-31T23:59:59Z"
+    },
+    "visualisation_parameters": {
+      "bands": [
+        {
+          "band": "height",
+          "min": 0,
+          "max": 600
+        },
+        {
+          "band": "slope",
+          "min": 0,
+          "max": 600
+        },
+        {
+          "band": "aspect",
+          "min": 0,
+          "max": 600
+        }
+      ]
+    }
+  },
   "assets": {
     "metadata": {
       "href": "https://www.paikkatietohakemisto.fi/geonetwork/srv/eng/catalog.search#/metadata/053a0a20-abfa-4bf9-ac74-270e845654d1",

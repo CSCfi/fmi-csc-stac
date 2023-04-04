@@ -26,9 +26,9 @@ collection_info = {
         "description": 
             "Sentinel-2 annual surface reflectance  mosaics. Resolution: 10m. Covered area: Finland. Original Sentinel-2 data from ESA Copernicus Sentinel Program, mosaic processing by Sentinel-2 Global Mosaic Service, mosaic postprocessing by SYKE.",
         "metadata":
-            "https://ckan.ymparisto.fi/dataset/sentinel-2-satellite-image-mosaics-s2gm-sentinel-2-satelliittikuvamosaiikki-s2gm",
+            "https://s2gm.land.copernicus.eu/help/documentation",
         "licenseURL":
-            "https://ckan.ymparisto.fi/dataset/sentinel-2-satellite-image-mosaics-s2gm-sentinel-2-satelliittikuvamosaiikki-s2gm",
+            None,
         "original_href":
             "https://pta.data.lit.fmi.fi/stac/catalog/Sentinel-2_global_mosaic_vuosi/Sentinel-2_global_mosaic_vuosi.json",
         "license":
@@ -38,7 +38,9 @@ collection_info = {
                 name="FMI",
                 url="https://en.ilmatieteenlaitos.fi/",
                 roles=[
-                    "host"
+                    "host",
+                    "licensor",
+                    "processor"
                 ]
             ),
             pystac.Provider(
@@ -46,14 +48,6 @@ collection_info = {
                 url="https://www.esa.int/",
                 roles=[
                     "producer"
-                ]
-            ),
-            pystac.Provider(
-                name="SYKE",
-                url="https://www.syke.fi/en-US",
-                roles=[
-                    "processor",
-                    "licensor"
                 ]
             ),
             pystac.Provider(
@@ -71,9 +65,9 @@ collection_info = {
         "description":
             "Sentinel-2 11-days surface reflectance mosaics. Resolution: 10m. Covered area: Finland. Original Sentinel-2 data from ESA Copernicus Sentinel Program, mosaic processing by Sentinel-2 Global Mosaic Service. Mosaic postprocessing by SYKE.",
         "metadata":
-            "https://ckan.ymparisto.fi/dataset/sentinel-2-satellite-image-mosaics-s2gm-sentinel-2-satelliittikuvamosaiikki-s2gm",
+            "https://s2gm.land.copernicus.eu/help/documentation",
         "licenseURL":
-            "https://ckan.ymparisto.fi/dataset/sentinel-2-satellite-image-mosaics-s2gm-sentinel-2-satelliittikuvamosaiikki-s2gm",
+            None,
         "original_href":
             "https://pta.data.lit.fmi.fi/stac/catalog/Sentinel-2_global_mosaic_dekadi/Sentinel-2_global_mosaic_dekadi.json",
         "license":
@@ -83,7 +77,9 @@ collection_info = {
                 name="FMI",
                 url="https://en.ilmatieteenlaitos.fi/",
                 roles=[
-                    "host"
+                    "host",
+                    "processor",
+                    "licensor"
                 ]
             ),
             pystac.Provider(
@@ -99,15 +95,7 @@ collection_info = {
                 roles=[
                     "producer"
                 ]
-            ),
-            pystac.Provider(
-                name="SYKE",
-                url="https://www.syke.fi/en-US",
-                roles=[
-                    "processor",
-                    "licensor"
-                ]
-            ),
+            )
         ]
     },
     "sentinel_2_monthly_index_mosaics_at_fmi": {
@@ -189,7 +177,7 @@ collection_info = {
         "metadata":
             "https://ckan.ymparisto.fi/dataset/sentinel-1-sar-image-mosaic-s1sar-sentinel-1-sar-kuvamosaiikki-s1sar",
         "licenseURL":
-            "https://ckan.ymparisto.fi/dataset/sentinel-1-sar-image-mosaic-s1sar-sentinel-1-sar-kuvamosaiikki-s1sar",
+            None,
         "original_href":
             "https://pta.data.lit.fmi.fi/stac/catalog/Sentinel-1_daily_mosaiikki/Sentinel-1_daily_mosaiikki.json",
         "license":
@@ -457,7 +445,7 @@ collection_info = {
         "description":
             "Daily wind damage risk map. Resolution: 500m. Covered area: Finland",
         "metadata":
-            None,
+            "https://etsin.fairdata.fi/dataset/7a326b19-7a3c-42fc-9375-fcec1898fc6e",
         "licenseURL":
             None,
         "original_href":
@@ -509,119 +497,125 @@ def retry_errors(list_of_items, list_of_errors):
 
     return 0
 
-
-root_catalog = Catalog(id="FMI", description="", catalog_type= pystac.CatalogType.RELATIVE_PUBLISHED)
-collections = []
-for collection in fmi_collections:
-    try:
-        collections.append(Collection.from_file(collection))
-    except ValueError:
-        with urllib.request.urlopen(collection) as url:
-            data = json.load(url)
-            data["extent"]["temporal"]["interval"] = [data["extent"]["temporal"]["interval"]]
-            collections.append(Collection.from_dict(data))
-
-for collection in collections:
-
-    collection.id = news_ids[collection.id]
-    
-    collection_links = collection.get_child_links()
-
-    sub_collections = []
-    for link in collection_links:
+def create_fmi_collections():
+    root_catalog = Catalog(id="FMI", description="", catalog_type= pystac.CatalogType.RELATIVE_PUBLISHED)
+    collections = []
+    for collection in fmi_collections:
         try:
-            sub_collections.append(Collection.from_file(link.target))
+            collections.append(Collection.from_file(collection))
         except ValueError:
-            with urllib.request.urlopen(link.target) as url:
+            with urllib.request.urlopen(collection) as url:
                 data = json.load(url)
                 data["extent"]["temporal"]["interval"] = [data["extent"]["temporal"]["interval"]]
-                sub_collections.append(Collection.from_dict(data))
-    # sub_collections = [Collection.from_file(link.target) for link in collection_links]
-    print(f"Number of subcollections in {collection.id}: {len(sub_collections)}")
-    item_links = list(set([link.target for sub in sub_collections for link in sub.get_item_links()]))
-    print(f"Number of item links in {collection.id}: {len(item_links)}")
-    items = []
-    errors = []
-    for i,item in enumerate(item_links):
-        try:
-            items.append(pystac.Item.from_file(item))
-        except Exception as e:
-            print(f"ERROR {e} in item {item} #{i}")
-            errors.append(item)
-    print(f"Number of items in {collection.id}: {len(items)}", flush=True)
+                collections.append(Collection.from_dict(data))
 
-    # collection.clear_children()
-    collection.remove_links("child")
-    collection.remove_links("license")
+    for collection in collections:
 
-    collection.title = collection_info[collection.id]["title"]
-    collection.description = collection_info[collection.id]["description"]
-    collection.providers = collection_info[collection.id]["providers"]
-    collection.extra_fields["derived_from"] = collection_info[collection.id]["original_href"]
-    collection.license = collection_info[collection.id]["license"]
-    if collection_info[collection.id]["metadata"]:
-        collection.add_link(pystac.Link(
-            rel="metadata",
-            target=collection_info[collection.id]["metadata"],
-            title="Metadata"
-        ))
-        collection.add_asset(
-            key="metadata",
-            asset=pystac.Asset(
-                href=collection_info[collection.id]["metadata"],
-                title="Metadata",
-                roles=[
-                    "metadata"
-                ]
+        collection.id = news_ids[collection.id]
+        
+        collection_links = collection.get_child_links()
+
+        sub_collections = []
+        for link in collection_links:
+            try:
+                sub_collections.append(Collection.from_file(link.target))
+            except ValueError:
+                with urllib.request.urlopen(link.target) as url:
+                    data = json.load(url)
+                    data["extent"]["temporal"]["interval"] = [data["extent"]["temporal"]["interval"]]
+                    sub_collections.append(Collection.from_dict(data))
+        # sub_collections = [Collection.from_file(link.target) for link in collection_links]
+        print(f"Number of subcollections in {collection.id}: {len(sub_collections)}")
+        item_links = list(set([link.target for sub in sub_collections for link in sub.get_item_links()]))
+        print(f"Number of item links in {collection.id}: {len(item_links)}")
+        items = []
+        errors = []
+        for i,item in enumerate(item_links):
+            try:
+                items.append(pystac.Item.from_file(item))
+            except Exception as e:
+                print(f"ERROR {e} in item {item} #{i}")
+                errors.append(item)
+        print(f"Number of items in {collection.id}: {len(items)}", flush=True)
+
+        # collection.clear_children()
+        collection.remove_links("child")
+        collection.remove_links("license")
+
+        collection.title = collection_info[collection.id]["title"]
+        collection.description = collection_info[collection.id]["description"]
+        collection.providers = collection_info[collection.id]["providers"]
+        collection.extra_fields["derived_from"] = collection_info[collection.id]["original_href"]
+        collection.license = collection_info[collection.id]["license"]
+        if collection_info[collection.id]["metadata"]:
+            collection.add_link(pystac.Link(
+                rel="metadata",
+                target=collection_info[collection.id]["metadata"],
+                title="Metadata"
+            ))
+            collection.add_asset(
+                key="metadata",
+                asset=pystac.Asset(
+                    href=collection_info[collection.id]["metadata"],
+                    title="Metadata",
+                    roles=[
+                        "metadata"
+                    ]
+                )
             )
-        )
-    if collection_info[collection.id]["licenseURL"]:
-        collection.add_link(pystac.Link(
-            rel="license",
-            target=collection_info[collection.id]["licenseURL"],
-            title="License"
-        ))
+        if collection_info[collection.id]["licenseURL"]:
+            collection.add_link(pystac.Link(
+                rel="license",
+                target=collection_info[collection.id]["licenseURL"],
+                title="License"
+            ))
 
-    # If there were connection errors during the item making process, the item generation for errors is retried
-    if len(errors) > 0:
-        retry_errors(items, errors)
-        print("All errors fixed")
+        # If there were connection errors during the item making process, the item generation for errors is retried
+        if len(errors) > 0:
+            retry_errors(items, errors)
+            print("All errors fixed")
 
-    for i,item in enumerate(items):
+        for i,item in enumerate(items):
 
-        with rasterio.open(next(iter(item.assets.values())).href) as src:
-            item.extra_fields["gsd"] = src.res[0]
-            item.extra_fields["proj:epsg"] = src.crs.to_string()
-            item.extra_fields["proj:transform"] = [
-                src.transform.a,
-                src.transform.b,
-                src.transform.c,
-                src.transform.d,
-                src.transform.e,
-                src.transform.f,
-                src.transform.g,
-                src.transform.h,
-                src.transform.i
-            ]
+            with rasterio.open(next(iter(item.assets.values())).href) as src:
+                item.extra_fields["gsd"] = src.res[0]
+                item.extra_fields["proj:epsg"] = src.crs.to_string()
+                item.extra_fields["proj:transform"] = [
+                    src.transform.a,
+                    src.transform.b,
+                    src.transform.c,
+                    src.transform.d,
+                    src.transform.e,
+                    src.transform.f,
+                    src.transform.g,
+                    src.transform.h,
+                    src.transform.i
+                ]
 
-        for asset in item.assets:
-            if item.assets[asset].roles is not list:
-                item.assets[asset].roles = [item.assets[asset].roles]
-    
-        del item.extra_fields["license"]
-        item.remove_links("license")
-        # if collection_info[collection.id]["licenseURL"]:
-        #     item.add_link(pystac.Link(
-        #         rel="license",
-        #         target=collection_info[collection.id]["licenseURL"],
-        #         title="License"
-        #     ))
+            for asset in item.assets:
+                if item.assets[asset].roles is not list:
+                    item.assets[asset].roles = [item.assets[asset].roles]
+        
+            del item.extra_fields["license"]
+            item.remove_links("license")
 
-        collection.add_item(item)
-        print(f"ITEM #{i} added")
+            collection.add_item(item)
+            
+            if len(items) >= 5:
+                if i == int(len(items) / 5):
+                    print("~20% of items added")
+                elif i == int(len(items) / 5) * 2:
+                    print("~40% of items added")
+                elif i == int(len(items) / 5) * 3:
+                    print("~60% of items added")
+                elif i == int(len(items) / 5) * 4:
+                    print("~80% of items added")
 
-    root_catalog.add_child(collection)
-    print(f"ITEMS in {collection.id}: {len(items)}")
+        root_catalog.add_child(collection)
+        print(f"ITEMS in {collection.id}: {len(items)}")
 
-root_catalog.normalize_and_save('FMI')
-print("Catalog normalized and saved")
+    root_catalog.normalize_and_save('FMI')
+    print("Catalog normalized and saved")
+
+if __name__ == "__main__":
+    create_fmi_collections()

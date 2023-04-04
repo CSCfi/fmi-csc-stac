@@ -36,11 +36,6 @@
   },
   "links": [
     {
-      "rel": "license",
-      "href": "https://ckan.ymparisto.fi/dataset/historical-landsat-image-index-mosaics-hind-historialliset-landsat-kuvaindeksimosaiikit-hind",
-      "title": "License"
-    },
-    {
       "rel": "root",
       "href": "../../catalog.json",
       "type": "application/json"

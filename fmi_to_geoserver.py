@@ -6,6 +6,10 @@ import pystac_client
 from requests.auth import HTTPBasicAuth
 from urllib.parse import urljoin
 
+def change_to_https(request: requests.Request) -> requests.Request: 
+    request.url = request.url.replace("http:", "https:")
+    return request
+
 def json_convert(jsonfile):
 
     """
@@ -64,8 +68,9 @@ def json_convert(jsonfile):
                 "derivedFrom": {
                     "href": content["derived_from"],
                     "rel": "derived_from",
-                    "type": "application/geo+json"
+                    "type": "application/json"
                 }, # Derived_from added
+                "licenseLink": None,
                 "summaries": content["summaries"],
                 "queryables": [
                     "eo:identifier"
@@ -78,7 +83,11 @@ def json_convert(jsonfile):
 
         for link in content["links"]:
             if link["rel"] == "license":
-                new_json["properties"]["licenseURL"] = link["href"]
+                new_json["properties"]["licenseLink"] = {
+                    "href": link["href"],
+                    "rel": "license",
+                    "type": "application/json"
+                } # New License URL link
 
     if content["type"] == "Feature":
 
@@ -109,13 +118,13 @@ if __name__ == "__main__":
 
     pwd = getpass.getpass()
 
-    collection_name = "sentinel_2_monthly_index_mosaics_at_fmi"
+    collection_name = "sentinel_1_daily_mosaics_at_fmi"
 
     workingdir = Path(__file__).parent
     sentinel = workingdir / "FMI" / collection_name
 
-    app_host = "http://86.50.229.158:8080/geoserver/rest/oseo/"
-    catalog = pystac_client.Client.open("http://86.50.229.158:8080/geoserver/ogc/stac/")
+    app_host = "https://paituli.csc.fi/geoserver/rest/oseo/"
+    catalog = pystac_client.Client.open("https://paituli.csc.fi/geoserver/ogc/stac/", request_modifier=change_to_https)
 
     # Convert the STAC collection json into json that GeoServer can handle
     converted = json_convert(sentinel / "collection.json")
@@ -135,14 +144,14 @@ if __name__ == "__main__":
     # Get the posted items from the specific collection
     posted = catalog.search(collections=[collection_name]).item_collection()
     posted_ids = [x.id for x in posted]
-    print(f"POSTed: {len(posted_ids)}")
+    print(f"Uploaded: {len(posted_ids)}")
 
     with open(sentinel / "collection.json") as f:
         rootcollection = json.load(f)
 
     items = [x['href'] for x in rootcollection["links"] if x["rel"] == "item"]
 
-    print("POSTing items:")
+    print("Uploading items:")
     for i, item in enumerate(items):
         with open(sentinel / item) as f:
             payload = json.load(f)
@@ -156,5 +165,13 @@ if __name__ == "__main__":
         else:
             r = requests.post(urljoin(app_host, request_point), json=converted, auth=HTTPBasicAuth("admin", pwd))
             r.raise_for_status()
-        print("*", end='', flush=True) # Just to keep track that the script is still running
+        if len(items) >= 5: # Just to keep track that the script is still running
+            if i == int(len(items) / 5):
+                print("~20% of items added")
+            elif i == int(len(items) / 5) * 2:
+                print("~40% of items added")
+            elif i == int(len(items) / 5) * 3:
+                print("~60% of items added")
+            elif i == int(len(items) / 5) * 4:
+                print("~80% of items added")
     print("")

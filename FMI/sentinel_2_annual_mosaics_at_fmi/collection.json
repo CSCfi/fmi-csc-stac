@@ -11,13 +11,13 @@
     },
     {
       "rel": "metadata",
-      "href": "https://ckan.ymparisto.fi/dataset/sentinel-2-satellite-image-mosaics-s2gm-sentinel-2-satelliittikuvamosaiikki-s2gm",
+      "href": "https://s2gm.land.copernicus.eu/help/documentation",
       "title": "Metadata"
     },
     {
-      "rel": "license",
-      "href": "https://ckan.ymparisto.fi/dataset/sentinel-2-satellite-image-mosaics-s2gm-sentinel-2-satelliittikuvamosaiikki-s2gm",
-      "title": "License"
+      "rel": "item",
+      "href": "./Sentinel-2_global_mosaic_vuosi_2019-01-01_2019-12-31/Sentinel-2_global_mosaic_vuosi_2019-01-01_2019-12-31.json",
+      "type": "application/json"
     },
     {
       "rel": "item",
@@ -27,11 +27,6 @@
     {
       "rel": "item",
       "href": "./Sentinel-2_global_mosaic_vuosi_2020-01-01_2020-12-31/Sentinel-2_global_mosaic_vuosi_2020-01-01_2020-12-31.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-2_global_mosaic_vuosi_2019-01-01_2019-12-31/Sentinel-2_global_mosaic_vuosi_2019-01-01_2019-12-31.json",
       "type": "application/json"
     },
     {
@@ -50,8 +45,54 @@
       "type": "application/json"
     }
   ],
-  "stac_extensions": [],
+  "derived_from": "https://pta.data.lit.fmi.fi/stac/catalog/Sentinel-2_global_mosaic_vuosi/Sentinel-2_global_mosaic_vuosi.json",
   "title": "Sentinel-2 annual surface reflectance mosaics.",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          15.201371,
+          59.14202,
+          36.021476,
+          70.077018
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2017-01-01T00:00:00Z",
+          "2021-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "providers": [
+    {
+      "name": "FMI",
+      "roles": [
+        "host",
+        "licensor",
+        "processor"
+      ],
+      "url": "https://en.ilmatieteenlaitos.fi/"
+    },
+    {
+      "name": "ESA",
+      "roles": [
+        "producer"
+      ],
+      "url": "https://www.esa.int/"
+    },
+    {
+      "name": "Sentinel-2 Global Mosaic service",
+      "roles": [
+        "processor"
+      ],
+      "url": "https://s2gm.land.copernicus.eu/"
+    }
+  ],
   "summaries": {
     "bands": [
       {
@@ -126,62 +167,9 @@
       "maximum": "2021-12-31T23:59:59Z"
     }
   },
-  "derived_from": "https://pta.data.lit.fmi.fi/stac/catalog/Sentinel-2_global_mosaic_vuosi/Sentinel-2_global_mosaic_vuosi.json",
-  "extent": {
-    "spatial": {
-      "bbox": [
-        [
-          15.201371,
-          59.14202,
-          36.021476,
-          70.077018
-        ]
-      ]
-    },
-    "temporal": {
-      "interval": [
-        [
-          "2017-01-01T00:00:00Z",
-          "2021-12-31T23:59:59Z"
-        ]
-      ]
-    }
-  },
-  "license": "CC-BY-4.0",
-  "providers": [
-    {
-      "name": "FMI",
-      "roles": [
-        "host"
-      ],
-      "url": "https://en.ilmatieteenlaitos.fi/"
-    },
-    {
-      "name": "ESA",
-      "roles": [
-        "producer"
-      ],
-      "url": "https://www.esa.int/"
-    },
-    {
-      "name": "SYKE",
-      "roles": [
-        "processor",
-        "licensor"
-      ],
-      "url": "https://www.syke.fi/en-US"
-    },
-    {
-      "name": "Sentinel-2 Global Mosaic service",
-      "roles": [
-        "processor"
-      ],
-      "url": "https://s2gm.land.copernicus.eu/"
-    }
-  ],
   "assets": {
     "metadata": {
-      "href": "https://ckan.ymparisto.fi/dataset/sentinel-2-satellite-image-mosaics-s2gm-sentinel-2-satelliittikuvamosaiikki-s2gm",
+      "href": "https://s2gm.land.copernicus.eu/help/documentation",
       "title": "Metadata",
       "roles": [
         "metadata"
