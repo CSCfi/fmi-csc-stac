@@ -1,49 +1,18 @@
 import json
-import sys
 import argparse
 import getpass
 import requests
 import pystac_client
+import pandas as pd
+import rasterio
+import urllib.request
 from requests.auth import HTTPBasicAuth
 from urllib.parse import urljoin
-from pystac import Collection
-import pandas as pd
-import pystac
-import rasterio
-import urllib.request, json
+from pystac import Collection, Item
 
-
-fmi_collections = [
-    "https://pta.data.lit.fmi.fi/stac/catalog/Sentinel-2_global_mosaic_vuosi/Sentinel-2_global_mosaic_vuosi.json",
-    "https://pta.data.lit.fmi.fi/stac/catalog/Sentinel-2_global_mosaic_dekadi/Sentinel-2_global_mosaic_dekadi.json",
-    "https://pta.data.lit.fmi.fi/stac/catalog/Sentinel-2_indeksimosaiikit/Sentinel-2_indeksimosaiikit.json",
-    "https://pta.data.lit.fmi.fi/stac/catalog/Sentinel-1_dekadi_mosaiikki/Sentinel-1_dekadi_mosaiikki.json",
-    "https://pta.data.lit.fmi.fi/stac/catalog/Sentinel-1_daily_mosaiikki/Sentinel-1_daily_mosaiikki.json",
-    "https://pta.data.lit.fmi.fi/stac/catalog/Sentinel-1_osakuvat/Sentinel-1_osakuvat.json",
-    #"https://pta.data.lit.fmi.fi/stac/catalog/Landsat_pintaheijastus/Landsat_pintaheijastus.json", # THE CHILDREN ARE NOT CORRECT
-    "https://pta.data.lit.fmi.fi/stac/catalog/Landsat_indeksit/Landsat_indeksit.json",
-    "https://pta.data.lit.fmi.fi/stac/catalog/Metsavarateema/Metsavarateema.json",
-    "https://pta.data.lit.fmi.fi/stac/catalog/Latvuskorkeusmalli/Latvuskorkeusmalli.json",
-    "https://pta.data.lit.fmi.fi/stac/catalog/MML-DTM-2m/MML-DTM-2m.json",
-    "https://pta.data.lit.fmi.fi/stac/catalog/Myrskytuhoriskikartta/Myrskytuhoriskikartta.json",
-    "https://pta.data.lit.fmi.fi/stac/catalog/Tuulituhoriski/Tuulituhoriski.json"
-]
-
-news_ids = {
-    "Sentinel-2_global_mosaic_vuosi": "sentinel_2_annual_mosaics_at_fmi",
-    "Sentinel-2_global_mosaic_dekadi": "sentinel_2_11_days_mosiacs_at_fmi",
-    "Sentinel-2_indeksimosaiikit": "sentinel_2_monthly_index_mosaics_at_fmi",
-    "Sentinel-1_dekadi_mosaiikki": "sentinel_1_11_days_mosaics_at_fmi",
-    "Sentinel-1_daily_mosaiikki": "sentinel_1_daily_mosaics_at_fmi",
-    "Sentinel-1_osakuvat": "sentinel_1_tiles_at_fmi",
-    "Landsat_pintaheijastus": "landsat_yearly_mosaics_at_fmi",
-    "Landsat_indeksit": "landsat_annual_index_mosaics_at_fmi",
-    "Latvuskorkeusmalli": "canopy_height_model_at_fmi",
-    "Metsavarateema": "forest_inventory_at_fmi",
-    "MML-DTM-2m": "2m_digital_terrain_model_products_at_fmi",
-    "Myrskytuhoriskikartta": "forest_wind_damage_risk_at_fmi",
-    "Tuulituhoriski": "daily_wind_damage_risk_at_fmi"
-}
+def change_to_https(request: requests.Request) -> requests.Request: 
+    request.url = request.url.replace("http:", "https:")
+    return request
 
 def retry_errors(list_of_items, list_of_errors):
     """
@@ -57,7 +26,7 @@ def retry_errors(list_of_items, list_of_errors):
     while len(list_of_errors) > 0:
         for i,item in enumerate(list_of_errors):
             try:
-                list_of_items.append(pystac.Item.from_file(item))
+                list_of_items.append(Item.from_file(item))
                 print(f" * Added item {item}")
                 list_of_errors.remove(item)
             except Exception as e:
@@ -115,11 +84,11 @@ def json_convert(content):
                 "primary": True,
                 "license": content["license"],
                 "providers": content["providers"], # Providers added
-                "derivedFrom": {
+                "derivedFrom": { # Derived_from added
                     "href": content["derived_from"],
                     "rel": "derived_from",
                     "type": "application/json"
-                }, # Derived_from added
+                },
                 "queryables": [
                     "eo:identifier"
                 ]
@@ -131,11 +100,11 @@ def json_convert(content):
 
         for link in content["links"]:
             if link["rel"] == "license":
-                new_json["properties"]["licenseLink"] = {
+                new_json["properties"]["licenseLink"] = { #New License URL link
                     "href": link["href"],
                     "rel": "license",
                     "type": "application/json"
-                } # New License URL link
+                }
 
     if content["type"] == "Feature":
 
@@ -170,25 +139,27 @@ def update_catalog(app_host, csc_catalog_client):
     app_host - The REST API path for updating the collections
     csc_catalog_client - The STAC API path for checking which items are already in the collections
     """
+    
+    # Get all FMI collections from the app_host 
+    csc_collections = [col for col in csc_catalog_client.get_collections() if col.id.endswith("at_fmi")]
 
-    collections = []
-    for collection in fmi_collections:
+    for collection in csc_collections:
+
+        derived_from = [link.target for link in collection.links if link.rel == "derived_from"]
         try:
-            collections.append(Collection.from_file(collection))
+            fmi_collection = Collection.from_file(derived_from[0])
         except ValueError:
-            with urllib.request.urlopen(collection) as url:
+            with urllib.request.urlopen(derived_from[0]) as url:
                 data = json.load(url)
                 data["extent"]["temporal"]["interval"] = [data["extent"]["temporal"]["interval"]]
-                collections.append(Collection.from_dict(data))
+                fmi_collection = Collection.from_dict(data)
 
-    for collection in collections:
-
-        collection.id = news_ids[collection.id]
+        fmi_collection.id = collection.id
         print(f"# Checking collection {collection.id}:")
-        collection_links = collection.get_child_links()
+        fmi_collection_links = fmi_collection.get_child_links()
 
         sub_collections = []
-        for link in collection_links:
+        for link in fmi_collection_links:
             try:
                 sub_collections.append(Collection.from_file(link.target))
             except ValueError:
@@ -198,15 +169,13 @@ def update_catalog(app_host, csc_catalog_client):
                     sub_collections.append(Collection.from_dict(data))
 
         item_links = list(set([link.target for sub in sub_collections for link in sub.get_item_links()]))
-
-        csc_collection = csc_catalog_client.get_collection(collection.id)
-        csc_item_ids = [x.id for x in csc_collection.get_items()]
+        csc_item_ids = [x.id for x in collection.get_items()]
 
         items = []
         errors = []
         for i,item in enumerate(item_links):
             try:
-                items.append(pystac.Item.from_file(item))
+                items.append(Item.from_file(item))
             except Exception as e:
                 print(f" ! Timeout on {item} #{i}")
                 errors.append(item)
@@ -218,9 +187,9 @@ def update_catalog(app_host, csc_catalog_client):
 
         print(f" * Number of items in CSC STAC and FMI for {collection.id}: {len(csc_item_ids)}/{len(items)}")
 
-        for i,item in enumerate(items):
+        for item in items:
             if item.id not in csc_item_ids:
-                collection.add_item(item)
+                fmi_collection.add_item(item)
 
                 with rasterio.open(next(iter(item.assets.values())).href) as src:
                     item.extra_fields["gsd"] = src.res[0]
@@ -279,7 +248,7 @@ if __name__ == "__main__":
             pwd = getpass.getpass()
 
     app_host = f"{args.host}/geoserver/rest/oseo/"
-    csc_catalog_client = pystac_client.Client.open(f"{args.host}/geoserver/ogc/stac/")
+    csc_catalog_client = pystac_client.Client.open(f"{args.host}/geoserver/ogc/stac/")#, request_modifier=change_to_https)
 
     print(f"Updating STAC Catalog at {args.host}")
     update_catalog(app_host, csc_catalog_client)
