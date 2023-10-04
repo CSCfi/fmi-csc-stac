@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "2m_digital_terrain_model_products_at_fmi",
   "stac_version": "1.0.0",
-  "description": "Digital terrain model products: DTM, aspect, slope. Resolution: 2m. Covered area: Finland.",
+  "description": "Digital terrain model products: DTM, aspect, slope. Scale: 2m. Coordinate system: ETRS-TM35FIN.",
   "links": [
     {
       "rel": "root",
@@ -31,7 +31,7 @@
     }
   ],
   "derived_from": "https://pta.data.lit.fmi.fi/stac/catalog/MML-DTM-2m/MML-DTM-2m.json",
-  "title": "Digital terrain model products: DTM, aspect, slope.",
+  "title": "Digital terrain model products: DTM, aspect, slope (FMI Tuulihaukka)",
   "extent": {
     "spatial": {
       "bbox": [

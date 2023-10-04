@@ -44,13 +44,13 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Sentinel-1 daily backscatter mosaics: VV and VH polarisation."
+      "title": "Sentinel-1 daily backscatter mosaics: VV and VH polarisation (FMI Tuulihaukka)"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Sentinel-1 daily backscatter mosaics: VV and VH polarisation."
+      "title": "Sentinel-1 daily backscatter mosaics: VV and VH polarisation (FMI Tuulihaukka)"
     }
   ],
   "assets": {
@@ -104,7 +104,7 @@
   "stac_extensions": [],
   "collection": "sentinel_1_daily_mosaics_at_fmi",
   "gsd": 10.0,
-  "proj:epsg": "EPSG:3067",
+  "proj:epsg": 3067,
   "proj:transform": [
     10.0,
     0.0,

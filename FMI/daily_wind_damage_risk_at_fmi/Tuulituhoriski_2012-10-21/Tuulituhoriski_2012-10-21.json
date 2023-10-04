@@ -44,13 +44,13 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Daily wind damage risk map."
+      "title": "Daily wind damage risk map (FMI Tuulihaukka)"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Daily wind damage risk map."
+      "title": "Daily wind damage risk map (FMI Tuulihaukka)"
     }
   ],
   "assets": {
@@ -76,7 +76,7 @@
     "extractionRules": []
   },
   "gsd": 500.0,
-  "proj:epsg": "EPSG:3067",
+  "proj:epsg": 3067,
   "proj:transform": [
     500.0,
     0.0,

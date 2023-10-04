@@ -1,5 +1,6 @@
 import json
 import getpass
+import argparse
 from pathlib import Path
 import requests
 import pystac_client
@@ -116,18 +117,23 @@ def json_convert(jsonfile):
 
 if __name__ == "__main__":
 
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--host", type=str, help="Hostname of the selected STAC API", required=True)
+    
+    args = parser.parse_args()
+
     pwd = getpass.getpass()
 
-    collection_name = "sentinel_1_daily_mosaics_at_fmi"
+    collection_name = "sentinel_1_11_days_mosaics_at_fmi"
 
     workingdir = Path(__file__).parent
-    sentinel = workingdir / "FMI" / collection_name
+    collection_folder = workingdir / "FMI" / collection_name
 
-    app_host = "https://paituli.csc.fi/geoserver/rest/oseo/"
-    catalog = pystac_client.Client.open("https://paituli.csc.fi/geoserver/ogc/stac/v1/", request_modifier=change_to_https)
+    app_host = f"{args.host}/geoserver/rest/oseo/"
+    catalog = pystac_client.Client.open(f"{args.host}/geoserver/ogc/stac/v1/", request_modifier=change_to_https)
 
     # Convert the STAC collection json into json that GeoServer can handle
-    converted = json_convert(sentinel / "collection.json")
+    converted = json_convert(collection_folder / "collection.json")
 
     #Additional code for changing collection data if the collection already exists
     collections = catalog.get_collections()
@@ -139,24 +145,24 @@ if __name__ == "__main__":
     else:
         r = requests.post(urljoin(app_host, "collections/"), json=converted, auth=HTTPBasicAuth("admin", pwd))
         r.raise_for_status()
-        print(f"Added new collection")
+        print(f"Added new collection: {collection_name}")
 
     # Get the posted items from the specific collection
     posted = catalog.search(collections=[collection_name]).item_collection()
     posted_ids = [x.id for x in posted]
-    print(f"Uploaded: {len(posted_ids)}")
+    print(f"Number of uploaded items: {len(posted_ids)}")
 
-    with open(sentinel / "collection.json") as f:
+    with open(collection_folder / "collection.json") as f:
         rootcollection = json.load(f)
 
     items = [x['href'] for x in rootcollection["links"] if x["rel"] == "item"]
 
     print("Uploading items:")
     for i, item in enumerate(items):
-        with open(sentinel / item) as f:
+        with open(collection_folder / item) as f:
             payload = json.load(f)
         # Convert the STAC item json into json that GeoServer can handle
-        converted = json_convert(sentinel / item)
+        converted = json_convert(collection_folder / item)
         request_point = f"collections/{rootcollection['id']}/products"
         if payload["id"] in posted_ids:
             request_point = f"collections/{rootcollection['id']}/products/{payload['id']}"
@@ -174,4 +180,4 @@ if __name__ == "__main__":
                 print("~60% of items added")
             elif i == int(len(items) / 5) * 4:
                 print("~80% of items added")
-    print("")
+    print("All items added.")

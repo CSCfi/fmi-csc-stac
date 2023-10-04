@@ -1,0 +1,103 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "Sentinel-1_VV_ja_VH_osakuvat_2023-05-11_153328",
+  "properties": {
+    "datetime": null,
+    "start_datetime": "2023-05-11T15:33:28Z",
+    "end_datetime": "2023-05-11T15:34:43Z",
+    "orbit": "ASCENDING"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          25.731278,
+          62.959512
+        ],
+        [
+          32.939305,
+          62.83998
+        ],
+        [
+          34.174041,
+          67.78147
+        ],
+        [
+          25.465099,
+          67.93165
+        ],
+        [
+          25.731278,
+          62.959512
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Sentinel-1 backscatter tiles: VV and VH polarisation (FMI Tuulihaukka)"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Sentinel-1 backscatter tiles: VV and VH polarisation (FMI Tuulihaukka)"
+    }
+  ],
+  "assets": {
+    "vv": {
+      "href": "https://pta.data.lit.fmi.fi/sen1/s1_grd_vv_prep/S1_processed_20230511_153328_153443_048488_05D524_VV.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "vv",
+      "roles": [
+        "data"
+      ]
+    },
+    "vh": {
+      "href": "https://pta.data.lit.fmi.fi/sen1/s1_grd_vh_prep/S1_processed_20230511_153328_153443_048488_05D524_VH.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "vh",
+      "roles": [
+        "data"
+      ]
+    },
+    "metadata": {
+      "href": "https://pta.data.lit.fmi.fi/sen1/s1_grd_meta_prep/S1_processed_20230511_153328_153443_048488_05D524.dim",
+      "title": "metadata",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "bbox": [
+    25.4650992185386,
+    62.8399796670511,
+    34.1740405346273,
+    67.9316500211942
+  ],
+  "stac_extensions": [],
+  "collection": "sentinel_1_tiles_at_fmi",
+  "gsd": 9.999999999999998,
+  "proj:epsg": 3067,
+  "proj:transform": [
+    9.999999999999998,
+    0.0,
+    435650.0698438862,
+    0.0,
+    -9.999999999999998,
+    7536042.764754851,
+    0.0,
+    0.0,
+    1.0
+  ]
+}

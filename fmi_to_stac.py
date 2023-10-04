@@ -22,9 +22,9 @@ fmi_collections = [
 collection_info = {
     "sentinel_2_annual_mosaics_at_fmi" : {
         "title":
-            "Sentinel-2 annual surface reflectance mosaics.",
+            "Sentinel-2 annual surface reflectance mosaics (FMI Tuulihaukka)",
         "description": 
-            "Sentinel-2 annual surface reflectance  mosaics. Resolution: 10m. Covered area: Finland. Original Sentinel-2 data from ESA Copernicus Sentinel Program, mosaic processing by Sentinel-2 Global Mosaic Service, mosaic postprocessing by SYKE.",
+            "Sentinel-2 annual surface reflectance  mosaics. Scale: 10m. Original Sentinel-2 data from ESA Copernicus Sentinel Program, mosaic processing by Sentinel-2 Global Mosaic Service, mosaic postprocessing by SYKE. Coordinate system: ETRS-TM35FIN.",
         "metadata":
             "https://s2gm.land.copernicus.eu/help/documentation",
         "licenseURL":
@@ -59,11 +59,11 @@ collection_info = {
             )
         ]
     },
-    "sentinel_2_11_days_mosiacs_at_fmi": {
+    "sentinel_2_11_days_mosaics_at_fmi": {
         "title":
-            "Sentinel-2 11-days surface reflectance mosaics.",
+            "Sentinel-2 11-days surface reflectance mosaics (FMI Tuulihaukka)",
         "description":
-            "Sentinel-2 11-days surface reflectance mosaics. Resolution: 10m. Covered area: Finland. Original Sentinel-2 data from ESA Copernicus Sentinel Program, mosaic processing by Sentinel-2 Global Mosaic Service. Mosaic postprocessing by SYKE.",
+            "Sentinel-2 11-days surface reflectance mosaics. Scale: 10m. Original Sentinel-2 data from ESA Copernicus Sentinel Program, mosaic processing by Sentinel-2 Global Mosaic Service. Mosaic postprocessing by SYKE. Coordinate system: ETRS-TM35FIN.",
         "metadata":
             "https://s2gm.land.copernicus.eu/help/documentation",
         "licenseURL":
@@ -100,9 +100,9 @@ collection_info = {
     },
     "sentinel_2_monthly_index_mosaics_at_fmi": {
         "title":
-            "Sentinel-2 monthly index mosaics: NDVI, NDBI, NDMI, NDSI, NDTI.",
+            "Sentinel-2 monthly index mosaics: NDVI, NDBI, NDMI, NDSI, NDTI (FMI Tuulihaukka)",
         "description":
-            "Sentinel-2 monthly index mosaics: NDVI, NDBI, NDMI, NDSI, NDTI. Resolution: 10m. Covered area: Finland. Available each year for April-October. Original Sentinel-2 data from ESA Copernicus Sentinel Program, processing by SYKE and FMI.",
+            "Sentinel-2 monthly index mosaics: NDVI, NDBI, NDMI, NDSI, NDTI. Scale: 10m. Available each year for April-October. Original Sentinel-2 data from ESA Copernicus Sentinel Program, processing by SYKE and FMI. Coordinate system: ETRS-TM35FIN.",
         "metadata":
             "https://ckan.ymparisto.fi/dataset/sentinel-2-image-index-mosaics-s2ind-sentinel-2-kuvamosaiikit-s2ind",
         "licenseURL":
@@ -139,9 +139,9 @@ collection_info = {
     },
     "sentinel_1_11_days_mosaics_at_fmi": {
         "title":
-            "Sentinel-1 11-days backscatter mosaics: VV and VH polarisation.",
+            "Sentinel-1 11-days backscatter mosaics: VV and VH polarisation (FMI Tuulihaukka)",
         "description":
-            "Sentinel-1 11-days backscatter mosaics: VV and VH polarisation. Resolution: 20m.  Covered area: Finland. Original Sentinel-1 data from ESA Copernicus Sentinel Program, processing by FMI.",
+            "Sentinel-1 11-days backscatter mosaics: VV and VH polarisation. Scale: 20m. Original Sentinel-1 data from ESA Copernicus Sentinel Program, processing by FMI. Coordinate system: ETRS-TM35FIN.",
         "metadata":
             "https://ckan.ymparisto.fi/dataset/sentinel-1-sar-image-mosaic-s1sar-sentinel-1-sar-kuvamosaiikki-s1sar",
         "licenseURL":
@@ -171,9 +171,9 @@ collection_info = {
     },
     "sentinel_1_daily_mosaics_at_fmi": {
         "title":
-            "Sentinel-1 daily backscatter mosaics: VV and VH polarisation.",
+            "Sentinel-1 daily backscatter mosaics: VV and VH polarisation (FMI Tuulihaukka)",
         "description":
-            "Sentinel-1 daily backscatter mosaics: VV and VH polarisation. Resolution: 20m. Covered area: Finland. Original Sentinel-1 data from ESA Copernicus Sentinel Program, processing by FMI.",
+            "Sentinel-1 daily backscatter mosaics: VV and VH polarisation. Scale: 20m. Original Sentinel-1 data from ESA Copernicus Sentinel Program, processing by FMI. Coordinate system: ETRS-TM35FIN.",
         "metadata":
             "https://ckan.ymparisto.fi/dataset/sentinel-1-sar-image-mosaic-s1sar-sentinel-1-sar-kuvamosaiikki-s1sar",
         "licenseURL":
@@ -203,9 +203,9 @@ collection_info = {
     },
     "sentinel_1_tiles_at_fmi": {
         "title":
-            "Sentinel-1 backscatter tiles: VV and VH polarisation.",
+            "Sentinel-1 backscatter tiles: VV and VH polarisation (FMI Tuulihaukka)",
         "description":
-            "Sentinel-1 backscatter tiles: VV and VH polarisation. Resolution: 20m. Covered area: Finland. Original Sentinel-1 data from ESA Copernicus Sentinel Program, processing by FMI.",
+            "Sentinel-1 backscatter tiles: VV and VH polarisation. Scale: 20m. Original Sentinel-1 data from ESA Copernicus Sentinel Program, processing by FMI. Coordinate system: ETRS-TM35FIN.",
         "metadata":
             "https://sentinels.copernicus.eu/web/sentinel/user-guides/sentinel-1-sar",
         "licenseURL":
@@ -235,9 +235,9 @@ collection_info = {
     },
     "landsat_yearly_mosaics_at_fmi": {
         "title":
-            "Landsat annual surface reflectance mosaics.",
+            "Landsat annual surface reflectance mosaics (FMI Tuulihaukka)",
         "description":
-            "Landsat annual surface reflectance mosaics. Resolution: 30m. Covered area: Finland. Avaialble years: 1985, 1990 and 1995. Original Landsat imagery from USGS and ESA, processing by Blom Kartta.",
+            "Landsat annual surface reflectance mosaics. Scale: 30m. Avaialble years: 1985, 1990 and 1995. Original Landsat imagery from USGS and ESA, processing by Blom Kartta. Coordinate system: ETRS-TM35FIN.",
         "metadata":
             "https://ckan.ymparisto.fi/dataset/historical-landsat-satellite-image-mosaics-href-historialliset-landsat-kuvamosaiikit-href",
         "licenseURL":
@@ -279,9 +279,9 @@ collection_info = {
     },
     "landsat_annual_index_mosaics_at_fmi": {
         "title":
-            "Landsat (4 and 5) yearly index mosaics: NDVI, NDBI, NDMI, NDSI, NDTI.",
+            "Landsat (4 and 5) yearly index mosaics: NDVI, NDBI, NDMI, NDSI, NDTI (FMI Tuulihaukka)",
         "description":
-            "Landsat (4 and 5) yearly index mosaics: NDVI, NDBI, NDMI, NDSI, NDTI. Resolution: 30m. Covered area: Finland. Available for the years 1984-2011. Landsat-4/5 imagery from United States Geological Survey. Mosaics processed by SYKE at Finnish National Satellite Data Centre.",
+            "Landsat (4 and 5) yearly index mosaics: NDVI, NDBI, NDMI, NDSI, NDTI. Scale: 30m. Available for the years 1984-2011. Landsat-4/5 imagery from United States Geological Survey. Mosaics processed by SYKE at Finnish National Satellite Data Centre. Coordinate system: ETRS-TM35FIN.",
         "metadata":
             "https://ckan.ymparisto.fi/dataset/historical-landsat-image-index-mosaics-hind-historialliset-landsat-kuvaindeksimosaiikit-hind",
         "licenseURL":
@@ -317,9 +317,9 @@ collection_info = {
     },
     "forest_inventory_at_fmi": {
         "title":
-            "Multi-source forest inventory products.",
+            "Multi-source forest inventory products (FMI Tuulihaukka)",
         "description":
-            "Multi-source forest inventory products. Resolution: 20m. Covered area: Finland.",
+            "Multi-source forest inventory products. Scale: 20m. Coordinate system: ETRS-TM35FIN.",
         "metadata":
             "https://www.paikkatietohakemisto.fi/geonetwork/srv/fin/catalog.search#/metadata/0e7ad446-2999-4c94-ad0d-095991d8f80a",
         "licenseURL":
@@ -348,9 +348,9 @@ collection_info = {
     },
     "canopy_height_model_at_fmi": {
         "title":
-            "Canopy height model.",
+            "Canopy height model (FMI Tuulihaukka)",
         "description":
-            "Canopy height model. Resolution: 1m. Covered area: Finland.",
+            "Canopy height model. Scale: 1m. Coordinate system: ETRS-TM35FIN.",
         "metadata":
             "https://www.paikkatietohakemisto.fi/geonetwork/srv/eng/catalog.search#/metadata/8f3b883b-a133-4eee-9f5d-bfd042d782bb",
         "licenseURL":
@@ -379,9 +379,9 @@ collection_info = {
     },
     "2m_digital_terrain_model_products_at_fmi": {
         "title":
-            "Digital terrain model products: DTM, aspect, slope.",
+            "Digital terrain model products: DTM, aspect, slope (FMI Tuulihaukka)",
         "description":
-            "Digital terrain model products: DTM, aspect, slope. Resolution: 2m. Covered area: Finland.",
+            "Digital terrain model products: DTM, aspect, slope. Scale: 2m. Coordinate system: ETRS-TM35FIN.",
         "metadata":
             "https://www.paikkatietohakemisto.fi/geonetwork/srv/eng/catalog.search#/metadata/053a0a20-abfa-4bf9-ac74-270e845654d1",
         "licenseURL":
@@ -410,9 +410,9 @@ collection_info = {
     },
     "forest_wind_damage_risk_at_fmi": {
         "title":
-            "Forest wind damage risk map.",
+            "Forest wind damage risk map (FMI Tuulihaukka)",
         "description":
-            "Forest storm damage risk map. Resolution: 16m. Covered area: Finland",
+            "Forest storm damage risk map. Scale: 16m. Coordinate system: ETRS-TM35FIN.",
         "metadata":
             "https://metsainfo.luke.fi/fi/cms/tuulituhoriskikartta/tuulituhoriskit-kysymykset",
         "licenseURL":
@@ -441,9 +441,9 @@ collection_info = {
     },
     "daily_wind_damage_risk_at_fmi": {
         "title":
-            "Daily wind damage risk map.",
+            "Daily wind damage risk map (FMI Tuulihaukka)",
         "description":
-            "Daily wind damage risk map. Resolution: 500m. Covered area: Finland",
+            "Daily wind damage risk map. Scale: 500m. Coordinate system: ETRS-TM35FIN.",
         "metadata":
             "https://etsin.fairdata.fi/dataset/7a326b19-7a3c-42fc-9375-fcec1898fc6e",
         "licenseURL":
@@ -469,7 +469,7 @@ collection_info = {
 
 news_ids = {
     "Sentinel-2_global_mosaic_vuosi": "sentinel_2_annual_mosaics_at_fmi",
-    "Sentinel-2_global_mosaic_dekadi": "sentinel_2_11_days_mosiacs_at_fmi",
+    "Sentinel-2_global_mosaic_dekadi": "sentinel_2_11_days_mosaics_at_fmi",
     "Sentinel-2_indeksimosaiikit": "sentinel_2_monthly_index_mosaics_at_fmi",
     "Sentinel-1_dekadi_mosaiikki": "sentinel_1_11_days_mosaics_at_fmi",
     "Sentinel-1_daily_mosaiikki": "sentinel_1_daily_mosaics_at_fmi",
@@ -498,7 +498,7 @@ def retry_errors(list_of_items, list_of_errors):
     return 0
 
 def create_fmi_collections():
-    root_catalog = Catalog(id="FMI", description="", catalog_type= pystac.CatalogType.RELATIVE_PUBLISHED)
+    root_catalog = Catalog(id="FMI", description="Testing catalog", catalog_type= pystac.CatalogType.RELATIVE_PUBLISHED)
     collections = []
     for collection in fmi_collections:
         try:
@@ -579,7 +579,11 @@ def create_fmi_collections():
 
             with rasterio.open(next(iter(item.assets.values())).href) as src:
                 item.extra_fields["gsd"] = src.res[0]
-                item.extra_fields["proj:epsg"] = src.crs.to_string()
+                # 9391 EPSG code is false, replace by the standard 3067
+                if src.crs.to_epsg() == 9391:
+                    item.extra_fields["proj:epsg"] = 3067
+                else:
+                    item.extra_fields["proj:epsg"] = src.crs.to_epsg()
                 item.extra_fields["proj:transform"] = [
                     src.transform.a,
                     src.transform.b,

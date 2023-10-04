@@ -44,13 +44,13 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Sentinel-2 annual surface reflectance mosaics."
+      "title": "Sentinel-2 annual surface reflectance mosaics (FMI Tuulihaukka)"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Sentinel-2 annual surface reflectance mosaics."
+      "title": "Sentinel-2 annual surface reflectance mosaics (FMI Tuulihaukka)"
     }
   ],
   "assets": {
@@ -240,7 +240,7 @@
   "stac_extensions": [],
   "collection": "sentinel_2_annual_mosaics_at_fmi",
   "gsd": 10.0,
-  "proj:epsg": "EPSG:3067",
+  "proj:epsg": 3067,
   "proj:transform": [
     10.0,
     0.0,
