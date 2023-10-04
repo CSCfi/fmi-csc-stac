@@ -140,12 +140,14 @@ def update_catalog(app_host, csc_catalog_client):
     csc_catalog_client - The STAC API path for checking which items are already in the collections
     """
     
-    # Get all FMI collections from the app_host 
+    # Get all FMI collections from the app_host
     csc_collections = [col for col in csc_catalog_client.get_collections() if col.id.endswith("at_fmi")]
 
     for collection in csc_collections:
 
         derived_from = [link.target for link in collection.links if link.rel == "derived_from"]
+
+        # Some collections have wrongly configured Temporal Extents
         try:
             fmi_collection = Collection.from_file(derived_from[0])
         except ValueError:
@@ -160,6 +162,8 @@ def update_catalog(app_host, csc_catalog_client):
 
         sub_collections = []
         for link in fmi_collection_links:
+
+            # Some collections have wrongly configured Temporal Extents
             try:
                 sub_collections.append(Collection.from_file(link.target))
             except ValueError:
@@ -193,7 +197,11 @@ def update_catalog(app_host, csc_catalog_client):
 
                 with rasterio.open(next(iter(item.assets.values())).href) as src:
                     item.extra_fields["gsd"] = src.res[0]
-                    item.extra_fields["proj:epsg"] = src.crs.to_string()
+                    # 9391 EPSG code is false, replace by the standard 3067
+                    if src.crs.to_epsg() == 9391:
+                        item.extra_fields["proj:epsg"] = 3067
+                    else:
+                        item.extra_fields["proj:epsg"] = src.crs.to_epsg()
                     item.extra_fields["proj:transform"] = [
                         src.transform.a,
                         src.transform.b,

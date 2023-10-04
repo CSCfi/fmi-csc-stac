@@ -44,13 +44,13 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Landsat (4 and 5) yearly index mosaics: NDVI, NDBI, NDMI, NDSI, NDTI."
+      "title": "Landsat (4 and 5) yearly index mosaics: NDVI, NDBI, NDMI, NDSI, NDTI (FMI Tuulihaukka)"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Landsat (4 and 5) yearly index mosaics: NDVI, NDBI, NDMI, NDSI, NDTI."
+      "title": "Landsat (4 and 5) yearly index mosaics: NDVI, NDBI, NDMI, NDSI, NDTI (FMI Tuulihaukka)"
     }
   ],
   "assets": {
@@ -112,7 +112,7 @@
   "stac_extensions": [],
   "collection": "landsat_annual_index_mosaics_at_fmi",
   "gsd": 30.0,
-  "proj:epsg": "EPSG:3067",
+  "proj:epsg": 3067,
   "proj:transform": [
     30.0,
     0.0,

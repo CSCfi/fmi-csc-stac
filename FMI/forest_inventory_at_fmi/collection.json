@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "forest_inventory_at_fmi",
   "stac_version": "1.0.0",
-  "description": "Multi-source forest inventory products. Resolution: 20m. Covered area: Finland.",
+  "description": "Multi-source forest inventory products. Scale: 20m. Coordinate system: ETRS-TM35FIN.",
   "links": [
     {
       "rel": "root",
@@ -16,12 +16,7 @@
     },
     {
       "rel": "item",
-      "href": "./Metsavarateema_2009_2013/Metsavarateema_2009_2013.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Metsavarateema_2007_2011/Metsavarateema_2007_2011.json",
+      "href": "./Metsavarateema_2012_2016/Metsavarateema_2012_2016.json",
       "type": "application/json"
     },
     {
@@ -36,12 +31,17 @@
     },
     {
       "rel": "item",
-      "href": "./Metsavarateema_2012_2016/Metsavarateema_2012_2016.json",
+      "href": "./Metsavarateema_2007_2011/Metsavarateema_2007_2011.json",
       "type": "application/json"
     },
     {
       "rel": "item",
       "href": "./Metsavarateema_2013_2017/Metsavarateema_2013_2017.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Metsavarateema_2009_2013/Metsavarateema_2009_2013.json",
       "type": "application/json"
     },
     {
@@ -51,7 +51,7 @@
     }
   ],
   "derived_from": "https://pta.data.lit.fmi.fi/stac/catalog/Metsavarateema/Metsavarateema.json",
-  "title": "Multi-source forest inventory products.",
+  "title": "Multi-source forest inventory products (FMI Tuulihaukka)",
   "extent": {
     "spatial": {
       "bbox": [

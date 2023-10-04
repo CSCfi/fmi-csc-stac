@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "canopy_height_model_at_fmi",
   "stac_version": "1.0.0",
-  "description": "Canopy height model. Resolution: 1m. Covered area: Finland.",
+  "description": "Canopy height model. Scale: 1m. Coordinate system: ETRS-TM35FIN.",
   "links": [
     {
       "rel": "root",
@@ -26,7 +26,7 @@
     }
   ],
   "derived_from": "https://pta.data.lit.fmi.fi/stac/catalog/Latvuskorkeusmalli/Latvuskorkeusmalli.json",
-  "title": "Canopy height model.",
+  "title": "Canopy height model (FMI Tuulihaukka)",
   "extent": {
     "spatial": {
       "bbox": [

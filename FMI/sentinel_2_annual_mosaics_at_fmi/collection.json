@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "sentinel_2_annual_mosaics_at_fmi",
   "stac_version": "1.0.0",
-  "description": "Sentinel-2 annual surface reflectance  mosaics. Resolution: 10m. Covered area: Finland. Original Sentinel-2 data from ESA Copernicus Sentinel Program, mosaic processing by Sentinel-2 Global Mosaic Service, mosaic postprocessing by SYKE.",
+  "description": "Sentinel-2 annual surface reflectance  mosaics. Scale: 10m. Original Sentinel-2 data from ESA Copernicus Sentinel Program, mosaic processing by Sentinel-2 Global Mosaic Service, mosaic postprocessing by SYKE. Coordinate system: ETRS-TM35FIN.",
   "links": [
     {
       "rel": "root",
@@ -16,12 +16,12 @@
     },
     {
       "rel": "item",
-      "href": "./Sentinel-2_global_mosaic_vuosi_2019-01-01_2019-12-31/Sentinel-2_global_mosaic_vuosi_2019-01-01_2019-12-31.json",
+      "href": "./Sentinel-2_global_mosaic_vuosi_2017-01-01_2017-12-31/Sentinel-2_global_mosaic_vuosi_2017-01-01_2017-12-31.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./Sentinel-2_global_mosaic_vuosi_2017-01-01_2017-12-31/Sentinel-2_global_mosaic_vuosi_2017-01-01_2017-12-31.json",
+      "href": "./Sentinel-2_global_mosaic_vuosi_2018-01-01_2018-12-31/Sentinel-2_global_mosaic_vuosi_2018-01-01_2018-12-31.json",
       "type": "application/json"
     },
     {
@@ -31,7 +31,7 @@
     },
     {
       "rel": "item",
-      "href": "./Sentinel-2_global_mosaic_vuosi_2018-01-01_2018-12-31/Sentinel-2_global_mosaic_vuosi_2018-01-01_2018-12-31.json",
+      "href": "./Sentinel-2_global_mosaic_vuosi_2019-01-01_2019-12-31/Sentinel-2_global_mosaic_vuosi_2019-01-01_2019-12-31.json",
       "type": "application/json"
     },
     {
@@ -46,7 +46,7 @@
     }
   ],
   "derived_from": "https://pta.data.lit.fmi.fi/stac/catalog/Sentinel-2_global_mosaic_vuosi/Sentinel-2_global_mosaic_vuosi.json",
-  "title": "Sentinel-2 annual surface reflectance mosaics.",
+  "title": "Sentinel-2 annual surface reflectance mosaics (FMI Tuulihaukka)",
   "extent": {
     "spatial": {
       "bbox": [

@@ -44,13 +44,13 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Sentinel-2 monthly index mosaics: NDVI, NDBI, NDMI, NDSI, NDTI."
+      "title": "Sentinel-2 monthly index mosaics: NDVI, NDBI, NDMI, NDSI, NDTI (FMI Tuulihaukka)"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Sentinel-2 monthly index mosaics: NDVI, NDBI, NDMI, NDSI, NDTI."
+      "title": "Sentinel-2 monthly index mosaics: NDVI, NDBI, NDMI, NDSI, NDTI (FMI Tuulihaukka)"
     }
   ],
   "assets": {
@@ -112,7 +112,7 @@
   "stac_extensions": [],
   "collection": "sentinel_2_monthly_index_mosaics_at_fmi",
   "gsd": 10.0,
-  "proj:epsg": "EPSG:3067",
+  "proj:epsg": 3067,
   "proj:transform": [
     10.0,
     0.0,

@@ -45,13 +45,13 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Sentinel-1 backscatter tiles: VV and VH polarisation."
+      "title": "Sentinel-1 backscatter tiles: VV and VH polarisation (FMI Tuulihaukka)"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Sentinel-1 backscatter tiles: VV and VH polarisation."
+      "title": "Sentinel-1 backscatter tiles: VV and VH polarisation (FMI Tuulihaukka)"
     }
   ],
   "assets": {
@@ -88,7 +88,7 @@
   "stac_extensions": [],
   "collection": "sentinel_1_tiles_at_fmi",
   "gsd": 20.012519999999995,
-  "proj:epsg": "EPSG:3067",
+  "proj:epsg": 3067,
   "proj:transform": [
     20.012519999999995,
     0.0,

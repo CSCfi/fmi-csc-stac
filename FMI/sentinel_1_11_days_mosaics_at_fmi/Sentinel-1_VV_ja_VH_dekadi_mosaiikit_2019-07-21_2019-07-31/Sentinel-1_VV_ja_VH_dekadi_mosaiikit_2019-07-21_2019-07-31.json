@@ -44,13 +44,13 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Sentinel-1 11-days backscatter mosaics: VV and VH polarisation."
+      "title": "Sentinel-1 11-days backscatter mosaics: VV and VH polarisation (FMI Tuulihaukka)"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Sentinel-1 11-days backscatter mosaics: VV and VH polarisation."
+      "title": "Sentinel-1 11-days backscatter mosaics: VV and VH polarisation (FMI Tuulihaukka, Puhti)"
     }
   ],
   "assets": {
@@ -117,6 +117,70 @@
       "roles": [
         "data"
       ]
+    },
+    "min_vv_at_puhti": {
+      "href": "/appl/data/geo/sentinel/s1/s1m_grd_20190721-20190731_min_VV_R20m.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "min_vv_at_puhti",
+      "roles": [
+        "data"
+      ]
+    },
+    "mean_vv_at_puhti": {
+      "href": "/appl/data/geo/sentinel/s1/s1m_grd_20190721-20190731_mean_VV_R20m.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "mean_vv_at_puhti",
+      "roles": [
+        "data"
+      ]
+    },
+    "max_vv_at_puhti": {
+      "href": "/appl/data/geo/sentinel/s1/s1m_grd_20190721-20190731_max_VV_R20m.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "max_vv_at_puhti",
+      "roles": [
+        "data"
+      ]
+    },
+    "mean_vvvh_at_puhti": {
+      "href": "/appl/data/geo/sentinel/s1/s1m_grd_20190721-20190731_mean_VVVH_R20m.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "mean_vvvh_at_puhti",
+      "roles": [
+        "data"
+      ]
+    },
+    "min_vh_at_puhti": {
+      "href": "/appl/data/geo/sentinel/s1/s1m_grd_20190721-20190731_min_VH_R20m.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "min_vh_at_puhti",
+      "roles": [
+        "data"
+      ]
+    },
+    "mean_vh_at_puhti": {
+      "href": "/appl/data/geo/sentinel/s1/s1m_grd_20190721-20190731_mean_VH_R20m.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "mean_vh_at_puhti",
+      "roles": [
+        "data"
+      ]
+    },
+    "max_vh_at_puhti": {
+      "href": "/appl/data/geo/sentinel/s1/s1m_grd_20190721-20190731_max_VH_R20m.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "max_vh_at_puhti",
+      "roles": [
+        "data"
+      ]
+    },
+    "stdev_vh_at_puhti": {
+      "href": "/appl/data/geo/sentinel/s1/s1m_grd_20190721-20190731_stdev_VH_R20m.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "stdev_vh_at_puhti",
+      "roles": [
+        "data"
+      ]
     }
   },
   "bbox": [
@@ -128,7 +192,7 @@
   "stac_extensions": [],
   "collection": "sentinel_1_11_days_mosaics_at_fmi",
   "gsd": 20.0,
-  "proj:epsg": "EPSG:3067",
+  "proj:epsg": 3067,
   "proj:transform": [
     20.0,
     0.0,

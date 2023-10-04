@@ -44,13 +44,13 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Canopy height model."
+      "title": "Canopy height model (FMI Tuulihaukka)"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Canopy height model."
+      "title": "Canopy height model (FMI Tuulihaukka)"
     }
   ],
   "assets": {
@@ -72,7 +72,7 @@
   "stac_extensions": [],
   "collection": "canopy_height_model_at_fmi",
   "gsd": 1.0,
-  "proj:epsg": "EPSG:3067",
+  "proj:epsg": 3067,
   "proj:transform": [
     1.0,
     0.0,
