@@ -44,13 +44,13 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Sentinel-2 annual surface reflectance mosaics (FMI Tuulihaukka)"
+      "title": "Sentinel-2 annual surface reflectance mosaics (FMI Tuulituhohaukka)"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Sentinel-2 annual surface reflectance mosaics (FMI Tuulihaukka)"
+      "title": "Sentinel-2 annual surface reflectance mosaics (FMI Tuulituhohaukka)"
     }
   ],
   "assets": {

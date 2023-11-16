@@ -21,7 +21,67 @@
     },
     {
       "rel": "item",
+      "href": "./Landsat_indeksit_1989/Landsat_indeksit_1989.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Landsat_indeksit_1987/Landsat_indeksit_1987.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
       "href": "./Landsat_indeksit_2011/Landsat_indeksit_2011.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Landsat_indeksit_2008/Landsat_indeksit_2008.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Landsat_indeksit_2002/Landsat_indeksit_2002.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Landsat_indeksit_2006/Landsat_indeksit_2006.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Landsat_indeksit_1984/Landsat_indeksit_1984.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Landsat_indeksit_1985/Landsat_indeksit_1985.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Landsat_indeksit_1988/Landsat_indeksit_1988.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Landsat_indeksit_2001/Landsat_indeksit_2001.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Landsat_indeksit_1986/Landsat_indeksit_1986.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Landsat_indeksit_2003/Landsat_indeksit_2003.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Landsat_indeksit_1998/Landsat_indeksit_1998.json",
       "type": "application/json"
     },
     {
@@ -36,47 +96,12 @@
     },
     {
       "rel": "item",
-      "href": "./Landsat_indeksit_1986/Landsat_indeksit_1986.json",
+      "href": "./Landsat_indeksit_2010/Landsat_indeksit_2010.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./Landsat_indeksit_2001/Landsat_indeksit_2001.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Landsat_indeksit_1992/Landsat_indeksit_1992.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Landsat_indeksit_2008/Landsat_indeksit_2008.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Landsat_indeksit_1997/Landsat_indeksit_1997.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Landsat_indeksit_1988/Landsat_indeksit_1988.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Landsat_indeksit_2007/Landsat_indeksit_2007.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Landsat_indeksit_2000/Landsat_indeksit_2000.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Landsat_indeksit_1998/Landsat_indeksit_1998.json",
+      "href": "./Landsat_indeksit_1994/Landsat_indeksit_1994.json",
       "type": "application/json"
     },
     {
@@ -86,7 +111,17 @@
     },
     {
       "rel": "item",
-      "href": "./Landsat_indeksit_2010/Landsat_indeksit_2010.json",
+      "href": "./Landsat_indeksit_2007/Landsat_indeksit_2007.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Landsat_indeksit_2005/Landsat_indeksit_2005.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Landsat_indeksit_1995/Landsat_indeksit_1995.json",
       "type": "application/json"
     },
     {
@@ -96,7 +131,22 @@
     },
     {
       "rel": "item",
-      "href": "./Landsat_indeksit_2003/Landsat_indeksit_2003.json",
+      "href": "./Landsat_indeksit_2000/Landsat_indeksit_2000.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Landsat_indeksit_1992/Landsat_indeksit_1992.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Landsat_indeksit_1997/Landsat_indeksit_1997.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Landsat_indeksit_1999/Landsat_indeksit_1999.json",
       "type": "application/json"
     },
     {
@@ -110,63 +160,13 @@
       "type": "application/json"
     },
     {
-      "rel": "item",
-      "href": "./Landsat_indeksit_2002/Landsat_indeksit_2002.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Landsat_indeksit_1994/Landsat_indeksit_1994.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Landsat_indeksit_1984/Landsat_indeksit_1984.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Landsat_indeksit_1989/Landsat_indeksit_1989.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Landsat_indeksit_1995/Landsat_indeksit_1995.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Landsat_indeksit_1999/Landsat_indeksit_1999.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Landsat_indeksit_1987/Landsat_indeksit_1987.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Landsat_indeksit_2006/Landsat_indeksit_2006.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Landsat_indeksit_1985/Landsat_indeksit_1985.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Landsat_indeksit_2005/Landsat_indeksit_2005.json",
-      "type": "application/json"
-    },
-    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json"
     }
   ],
   "derived_from": "https://pta.data.lit.fmi.fi/stac/catalog/Landsat_indeksit/Landsat_indeksit.json",
-  "title": "Landsat (4 and 5) yearly index mosaics: NDVI, NDBI, NDMI, NDSI, NDTI (FMI Tuulihaukka)",
+  "title": "Landsat (4 and 5) yearly index mosaics: NDVI, NDBI, NDMI, NDSI, NDTI (FMI Tuulituhohaukka)",
   "extent": {
     "spatial": {
       "bbox": [

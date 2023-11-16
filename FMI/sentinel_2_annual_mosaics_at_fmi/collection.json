@@ -16,7 +16,12 @@
     },
     {
       "rel": "item",
-      "href": "./Sentinel-2_global_mosaic_vuosi_2017-01-01_2017-12-31/Sentinel-2_global_mosaic_vuosi_2017-01-01_2017-12-31.json",
+      "href": "./Sentinel-2_global_mosaic_vuosi_2020-01-01_2020-12-31/Sentinel-2_global_mosaic_vuosi_2020-01-01_2020-12-31.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-2_global_mosaic_vuosi_2021-01-01_2021-12-31/Sentinel-2_global_mosaic_vuosi_2021-01-01_2021-12-31.json",
       "type": "application/json"
     },
     {
@@ -26,17 +31,12 @@
     },
     {
       "rel": "item",
-      "href": "./Sentinel-2_global_mosaic_vuosi_2020-01-01_2020-12-31/Sentinel-2_global_mosaic_vuosi_2020-01-01_2020-12-31.json",
+      "href": "./Sentinel-2_global_mosaic_vuosi_2017-01-01_2017-12-31/Sentinel-2_global_mosaic_vuosi_2017-01-01_2017-12-31.json",
       "type": "application/json"
     },
     {
       "rel": "item",
       "href": "./Sentinel-2_global_mosaic_vuosi_2019-01-01_2019-12-31/Sentinel-2_global_mosaic_vuosi_2019-01-01_2019-12-31.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-2_global_mosaic_vuosi_2021-01-01_2021-12-31/Sentinel-2_global_mosaic_vuosi_2021-01-01_2021-12-31.json",
       "type": "application/json"
     },
     {
@@ -46,7 +46,7 @@
     }
   ],
   "derived_from": "https://pta.data.lit.fmi.fi/stac/catalog/Sentinel-2_global_mosaic_vuosi/Sentinel-2_global_mosaic_vuosi.json",
-  "title": "Sentinel-2 annual surface reflectance mosaics (FMI Tuulihaukka)",
+  "title": "Sentinel-2 annual surface reflectance mosaics (FMI Tuulituhohaukka)",
   "extent": {
     "spatial": {
       "bbox": [

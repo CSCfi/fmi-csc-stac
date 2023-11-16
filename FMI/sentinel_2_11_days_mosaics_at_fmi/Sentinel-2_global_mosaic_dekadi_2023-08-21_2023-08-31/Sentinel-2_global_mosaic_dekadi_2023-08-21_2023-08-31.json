@@ -44,13 +44,13 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Sentinel-2 11-days surface reflectance mosaics (FMI Tuulihaukka)"
+      "title": "Sentinel-2 11-days surface reflectance mosaics (FMI Tuulituhohaukka)"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Sentinel-2 11-days surface reflectance mosaics (FMI Tuulihaukka)"
+      "title": "Sentinel-2 11-days surface reflectance mosaics (FMI Tuulituhohaukka)"
     }
   ],
   "assets": {
@@ -130,6 +130,14 @@
       "href": "https://pta.data.lit.fmi.fi/sen2/s2m_b12/s2m_sdr_20230821-20230831_b12_r20m.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
       "title": "b12",
+      "roles": [
+        "data"
+      ]
+    },
+    "b07": {
+      "href": "https://pta.data.lit.fmi.fi/sen2/s2m_b07/s2m_sdr_20230821-20230831_b07_r20m.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "b07",
       "roles": [
         "data"
       ]

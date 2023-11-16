@@ -44,13 +44,13 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Daily wind damage risk map (FMI Tuulihaukka)"
+      "title": "Daily wind damage risk map (FMI Tuulituhohaukka)"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Daily wind damage risk map (FMI Tuulihaukka)"
+      "title": "Daily wind damage risk map (FMI Tuulituhohaukka)"
     }
   ],
   "assets": {

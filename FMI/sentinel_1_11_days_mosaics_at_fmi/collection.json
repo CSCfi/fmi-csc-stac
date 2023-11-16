@@ -21,27 +21,62 @@
     },
     {
       "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-02-11_2019-02-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-02-11_2019-02-21.json",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2014-12-21_2014-12-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2014-12-21_2014-12-31.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-05-01_2023-05-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-05-01_2023-05-11.json",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-01-21_2019-01-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-01-21_2019-01-31.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-12-21_2018-12-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-12-21_2018-12-31.json",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-09-21_2018-10-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-09-21_2018-10-01.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-07-11_2019-07-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-07-11_2019-07-21.json",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-10-21_2021-10-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-10-21_2021-10-31.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-12-01_2021-12-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-12-01_2021-12-11.json",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-02-01_2021-02-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-02-01_2021-02-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-11-21_2022-12-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-11-21_2022-12-01.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-07-11_2023-07-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-07-11_2023-07-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-09-11_2018-09-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-09-11_2018-09-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-04-01_2020-04-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-04-01_2020-04-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-01-01_2019-01-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-01-01_2019-01-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-08-11_2021-08-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-08-11_2021-08-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-04-21_2020-05-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-04-21_2020-05-01.json",
       "type": "application/json"
     },
     {
@@ -56,117 +91,7 @@
     },
     {
       "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-01-21_2022-01-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-01-21_2022-01-31.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-01-11_2020-01-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-01-11_2020-01-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
       "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-05-21_2021-05-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-05-21_2021-05-31.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-11-11_2022-11-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-11-11_2022-11-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-02-01_2019-02-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-02-01_2019-02-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-03-21_2020-03-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-03-21_2020-03-31.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-06-11_2023-06-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-06-11_2023-06-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-12-21_2020-12-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-12-21_2020-12-31.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-01-21_2019-01-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-01-21_2019-01-31.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-06-21_2021-07-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-06-21_2021-07-01.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-04-01_2018-04-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-04-01_2018-04-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-06-01_2020-06-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-06-01_2020-06-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-05-21_2018-05-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-05-21_2018-05-31.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-03-11_2020-03-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-03-11_2020-03-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-02-01_2018-02-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-02-01_2018-02-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-10-01_2018-10-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-10-01_2018-10-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-07-01_2019-07-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-07-01_2019-07-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-10-11_2021-10-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-10-11_2021-10-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-01-11_2022-01-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-01-11_2022-01-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-08-22_2022-09-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-08-22_2022-09-01.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2014-11-21_2014-12-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2014-11-21_2014-12-01.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-12-01_2020-12-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-12-01_2020-12-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2014-10-11_2014-10-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2014-10-11_2014-10-21.json",
       "type": "application/json"
     },
     {
@@ -176,672 +101,12 @@
     },
     {
       "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-08-22_2023-09-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-08-22_2023-09-01.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-11-21_2017-12-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-11-21_2017-12-01.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
       "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-08-11_2022-08-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-08-11_2022-08-21.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-07-11_2021-07-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-07-11_2021-07-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-05-01_2017-05-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-05-01_2017-05-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-11-01_2019-11-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-11-01_2019-11-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-08-21_2018-08-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-08-21_2018-08-31.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-03-01_2021-03-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-03-01_2021-03-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2014-12-01_2014-12-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2014-12-01_2014-12-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2015-01-21_2015-01-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2015-01-21_2015-01-31.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-11-01_2020-11-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-11-01_2020-11-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-01-21_2020-01-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-01-21_2020-01-31.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-05-01_2022-05-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-05-01_2022-05-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-01-01_2022-01-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-01-01_2022-01-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-04-11_2018-04-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-04-11_2018-04-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-10-01_2020-10-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-10-01_2020-10-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-05-11_2021-05-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-05-11_2021-05-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-02-11_2020-02-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-02-11_2020-02-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-08-21_2020-08-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-08-21_2020-08-31.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-04-01_2019-04-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-04-01_2019-04-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-01-11_2021-01-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-01-11_2021-01-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-07-11_2023-07-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-07-11_2023-07-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2014-12-21_2014-12-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2014-12-21_2014-12-31.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-08-11_2020-08-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-08-11_2020-08-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-02-11_2022-02-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-02-11_2022-02-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-01-01_2018-01-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-01-01_2018-01-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-02-19_2023-03-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-02-19_2023-03-01.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-02-11_2017-02-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-02-11_2017-02-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-07-01_2017-07-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-07-01_2017-07-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-07-21_2019-07-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-07-21_2019-07-31.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-11-11_2018-11-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-11-11_2018-11-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-11-11_2019-11-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-11-11_2019-11-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-08-01_2021-08-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-08-01_2021-08-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-04-21_2021-05-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-04-21_2021-05-01.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-09-21_2022-10-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-09-21_2022-10-01.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-06-11_2019-06-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-06-11_2019-06-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-03-11_2018-03-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-03-11_2018-03-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-11-21_2021-12-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-11-21_2021-12-01.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-08-01_2022-08-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-08-01_2022-08-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-10-22_2022-11-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-10-22_2022-11-01.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-12-01_2018-12-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-12-01_2018-12-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-06-01_2021-06-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-06-01_2021-06-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-01-11_2023-01-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-01-11_2023-01-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-06-01_2022-06-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-06-01_2022-06-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-09-21_2020-10-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-09-21_2020-10-01.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-06-01_2019-06-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-06-01_2019-06-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2014-10-21_2014-10-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2014-10-21_2014-10-31.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-08-21_2021-08-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-08-21_2021-08-31.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-01-21_2018-01-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-01-21_2018-01-31.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-06-21_2020-07-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-06-21_2020-07-01.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-04-01_2023-04-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-04-01_2023-04-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-12-11_2018-12-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-12-11_2018-12-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-12-22_2023-01-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-12-22_2023-01-01.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-10-01_2017-10-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-10-01_2017-10-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-02-01_2022-02-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-02-01_2022-02-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-11-01_2017-11-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-11-01_2017-11-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-09-01_2022-09-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-09-01_2022-09-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-09-01_2019-09-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-09-01_2019-09-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-05-01_2018-05-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-05-01_2018-05-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-04-11_2023-04-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-04-11_2023-04-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-06-01_2023-06-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-06-01_2023-06-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-01-01_2019-01-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-01-01_2019-01-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-12-11_2022-12-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-12-11_2022-12-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-01-21_2017-01-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-01-21_2017-01-31.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-04-11_2021-04-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-04-11_2021-04-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-12-21_2021-12-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-12-21_2021-12-31.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-08-01_2017-08-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-08-01_2017-08-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-04-01_2020-04-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-04-01_2020-04-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-07-01_2023-07-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-07-01_2023-07-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-05-21_2020-05-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-05-21_2020-05-31.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-11-11_2017-11-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-11-11_2017-11-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2015-01-11_2015-01-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2015-01-11_2015-01-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-02-21_2018-03-03/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-02-21_2018-03-03.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2014-12-11_2014-12-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2014-12-11_2014-12-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-08-11_2019-08-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-08-11_2019-08-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-09-11_2019-09-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-09-11_2019-09-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-10-11_2019-10-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-10-11_2019-10-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-07-01_2021-07-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-07-01_2021-07-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-04-11_2019-04-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-04-11_2019-04-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-03-01_2019-03-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-03-01_2019-03-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-11-01_2021-11-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-11-01_2021-11-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-06-21_2022-07-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-06-21_2022-07-01.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-02-01_2021-02-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-02-01_2021-02-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-08-11_2021-08-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-08-11_2021-08-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-05-11_2020-05-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-05-11_2020-05-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-03-01_2020-03-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-03-01_2020-03-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-10-11_2022-10-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-10-11_2022-10-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-02-11_2021-02-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-02-11_2021-02-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-10-01_2021-10-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-10-01_2021-10-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-11-21_2022-12-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-11-21_2022-12-01.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-08-11_2023-08-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-08-11_2023-08-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-11-21_2020-12-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-11-21_2020-12-01.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-10-11_2017-10-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-10-11_2017-10-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-02-11_2023-02-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-02-11_2023-02-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-08-11_2017-08-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-08-11_2017-08-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-02-01_2023-02-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-02-01_2023-02-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-07-11_2017-07-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-07-11_2017-07-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-07-11_2018-07-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-07-11_2018-07-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-09-01_2018-09-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-09-01_2018-09-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-07-01_2018-07-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-07-01_2018-07-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-05-01_2021-05-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-05-01_2021-05-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-02-19_2022-03-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-02-19_2022-03-01.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-11-11_2021-11-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-11-11_2021-11-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2015-01-01_2015-01-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2015-01-01_2015-01-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-03-01_2023-03-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-03-01_2023-03-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-05-01_2020-05-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-05-01_2020-05-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-03-22_2023-04-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-03-22_2023-04-01.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-12-11_2020-12-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-12-11_2020-12-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-04-01_2022-04-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-04-01_2022-04-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-12-01_2022-12-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-12-01_2022-12-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-09-21_2018-10-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-09-21_2018-10-01.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-01-11_2019-01-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-01-11_2019-01-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-04-21_2019-05-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-04-21_2019-05-01.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-03-11_2023-03-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-03-11_2023-03-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-06-11_2020-06-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-06-11_2020-06-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-07-22_2023-08-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-07-22_2023-08-01.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-07-11_2022-07-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-07-11_2022-07-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-02-21_2017-03-03/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-02-21_2017-03-03.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-10-11_2020-10-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-10-11_2020-10-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-03-21_2018-03-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-03-21_2018-03-31.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2014-10-01_2014-10-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2014-10-01_2014-10-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-09-11_2021-09-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-09-11_2021-09-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-12-11_2017-12-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-12-11_2017-12-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-10-01_2019-10-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-10-01_2019-10-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-02-21_2019-03-03/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-02-21_2019-03-03.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-02-11_2018-02-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-02-11_2018-02-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-07-21_2020-07-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-07-21_2020-07-31.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-12-11_2021-12-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-12-11_2021-12-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-08-01_2018-08-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-08-01_2018-08-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-11-01_2018-11-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-11-01_2018-11-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-05-11_2022-05-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-05-11_2022-05-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-09-11_2022-09-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-09-11_2022-09-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-05-11_2018-05-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-05-11_2018-05-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-09-01_2023-09-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-09-01_2023-09-11.json",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2014-10-11_2014-10-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2014-10-11_2014-10-21.json",
       "type": "application/json"
     },
     {
@@ -851,17 +116,617 @@
     },
     {
       "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-09-01_2020-09-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-09-01_2020-09-11.json",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-12-01_2017-12-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-12-01_2017-12-11.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-01-11_2017-01-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-01-11_2017-01-21.json",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2015-01-01_2015-01-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2015-01-01_2015-01-11.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-06-21_2019-07-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-06-21_2019-07-01.json",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-05-11_2019-05-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-05-11_2019-05-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-09-21_2020-10-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-09-21_2020-10-01.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-10-11_2021-10-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-10-11_2021-10-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-01-11_2021-01-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-01-11_2021-01-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-02-01_2019-02-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-02-01_2019-02-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-12-21_2019-12-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-12-21_2019-12-31.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-04-11_2021-04-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-04-11_2021-04-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-06-01_2021-06-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-06-01_2021-06-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-09-21_2021-10-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-09-21_2021-10-01.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-02-19_2022-03-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-02-19_2022-03-01.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-01-11_2018-01-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-01-11_2018-01-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-07-01_2023-07-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-07-01_2023-07-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-01-01_2022-01-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-01-01_2022-01-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-07-22_2023-08-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-07-22_2023-08-01.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-02-01_2023-02-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-02-01_2023-02-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-03-11_2019-03-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-03-11_2019-03-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-03-11_2022-03-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-03-11_2022-03-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-11-01_2022-11-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-11-01_2022-11-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-05-01_2021-05-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-05-01_2021-05-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-10-01_2018-10-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-10-01_2018-10-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-12-11_2018-12-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-12-11_2018-12-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-11-21_2021-12-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-11-21_2021-12-01.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2014-11-01_2014-11-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2014-11-01_2014-11-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-02-21_2018-03-03/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-02-21_2018-03-03.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-08-11_2020-08-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-08-11_2020-08-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-01-11_2019-01-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-01-11_2019-01-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-10-01_2021-10-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-10-01_2021-10-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-06-11_2021-06-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-06-11_2021-06-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-04-21_2019-05-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-04-21_2019-05-01.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-02-11_2020-02-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-02-11_2020-02-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-10-22_2022-11-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-10-22_2022-11-01.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-02-11_2023-02-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-02-11_2023-02-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-09-01_2023-09-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-09-01_2023-09-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-12-01_2019-12-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-12-01_2019-12-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-12-21_2017-12-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-12-21_2017-12-31.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-06-11_2023-06-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-06-11_2023-06-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-11-21_2017-12-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-11-21_2017-12-01.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2014-10-01_2014-10-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2014-10-01_2014-10-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-05-21_2020-05-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-05-21_2020-05-31.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-08-21_2020-08-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-08-21_2020-08-31.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-08-01_2017-08-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-08-01_2017-08-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-11-21_2020-12-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-11-21_2020-12-01.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-09-11_2022-09-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-09-11_2022-09-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-09-01_2019-09-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-09-01_2019-09-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-04-01_2021-04-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-04-01_2021-04-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-02-01_2020-02-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-02-01_2020-02-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-12-11_2021-12-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-12-11_2021-12-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2015-01-11_2015-01-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2015-01-11_2015-01-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-12-22_2023-01-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-12-22_2023-01-01.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-12-01_2020-12-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-12-01_2020-12-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-02-11_2022-02-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-02-11_2022-02-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-09-11_2019-09-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-09-11_2019-09-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-02-11_2018-02-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-02-11_2018-02-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-12-21_2018-12-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-12-21_2018-12-31.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-01-01_2020-01-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-01-01_2020-01-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-10-11_2018-10-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-10-11_2018-10-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-04-11_2022-04-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-04-11_2022-04-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-09-01_2022-09-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-09-01_2022-09-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-01-21_2020-01-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-01-21_2020-01-31.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-07-21_2021-07-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-07-21_2021-07-31.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-12-11_2019-12-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-12-11_2019-12-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-01-11_2022-01-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-01-11_2022-01-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-11-01_2019-11-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-11-01_2019-11-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-02-01_2022-02-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-02-01_2022-02-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-12-11_2022-12-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-12-11_2022-12-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-12-01_2021-12-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-12-01_2021-12-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-07-11_2018-07-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-07-11_2018-07-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-06-11_2020-06-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-06-11_2020-06-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-03-01_2019-03-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-03-01_2019-03-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-05-11_2021-05-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-05-11_2021-05-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-05-01_2022-05-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-05-01_2022-05-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-08-01_2019-08-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-08-01_2019-08-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-04-21_2023-05-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-04-21_2023-05-01.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-10-21_2017-10-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-10-21_2017-10-31.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2014-11-21_2014-12-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2014-11-21_2014-12-01.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-12-01_2018-12-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-12-01_2018-12-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-05-11_2023-05-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-05-11_2023-05-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-03-11_2018-03-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-03-11_2018-03-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-12-21_2021-12-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-12-21_2021-12-31.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-02-19_2023-03-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-02-19_2023-03-01.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-05-22_2023-06-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-05-22_2023-06-01.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-03-01_2020-03-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-03-01_2020-03-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-07-01_2021-07-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-07-01_2021-07-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-01-21_2022-01-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-01-21_2022-01-31.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-03-01_2021-03-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-03-01_2021-03-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-07-11_2021-07-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-07-11_2021-07-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-08-11_2018-08-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-08-11_2018-08-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-01-11_2020-01-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-01-11_2020-01-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-02-21_2020-03-02/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-02-21_2020-03-02.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-09-21_2019-10-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-09-21_2019-10-01.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-06-11_2022-06-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-06-11_2022-06-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-02-11_2017-02-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-02-11_2017-02-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2014-12-11_2014-12-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2014-12-11_2014-12-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-07-01_2019-07-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-07-01_2019-07-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-02-01_2018-02-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-02-01_2018-02-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-06-21_2020-07-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-06-21_2020-07-01.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-02-21_2019-03-03/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-02-21_2019-03-03.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-07-01_2018-07-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-07-01_2018-07-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-06-01_2023-06-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-06-01_2023-06-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-03-01_2023-03-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-03-01_2023-03-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2015-01-21_2015-01-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2015-01-21_2015-01-31.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-11-01_2018-11-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-11-01_2018-11-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-07-01_2020-07-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-07-01_2020-07-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-09-01_2021-09-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-09-01_2021-09-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-06-21_2022-07-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-06-21_2022-07-01.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-02-11_2021-02-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-02-11_2021-02-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-11-11_2020-11-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-11-11_2020-11-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-08-21_2021-08-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-08-21_2021-08-31.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-09-21_2022-10-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-09-21_2022-10-01.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-07-21_2020-07-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-07-21_2020-07-31.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-10-01_2020-10-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-10-01_2020-10-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-05-01_2017-05-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-05-01_2017-05-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-03-21_2019-03-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-03-21_2019-03-31.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2014-11-11_2014-11-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2014-11-11_2014-11-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-10-11_2020-10-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-10-11_2020-10-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-05-01_2019-05-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-05-01_2019-05-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-10-01_2019-10-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-10-01_2019-10-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-05-11_2020-05-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-05-11_2020-05-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-11-11_2021-11-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-11-11_2021-11-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-08-11_2017-08-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-08-11_2017-08-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-01-01_2021-01-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-01-01_2021-01-11.json",
       "type": "application/json"
     },
     {
@@ -876,22 +741,107 @@
     },
     {
       "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-05-21_2019-05-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-05-21_2019-05-31.json",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-05-11_2018-05-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-05-11_2018-05-21.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-07-21_2018-07-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-07-21_2018-07-31.json",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-03-11_2020-03-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-03-11_2020-03-21.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-10-21_2018-10-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-10-21_2018-10-31.json",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-01-01_2018-01-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-01-01_2018-01-11.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-04-11_2022-04-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-04-11_2022-04-21.json",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-07-11_2017-07-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-07-11_2017-07-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-08-21_2018-08-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-08-21_2018-08-31.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-08-01_2022-08-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-08-01_2022-08-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-08-21_2019-08-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-08-21_2019-08-31.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-08-01_2021-08-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-08-01_2021-08-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-05-21_2018-05-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-05-21_2018-05-31.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-01-01_2023-01-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-01-01_2023-01-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-04-01_2023-04-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-04-01_2023-04-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-09-21_2023-10-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-09-21_2023-10-01.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-04-11_2019-04-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-04-11_2019-04-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-07-11_2022-07-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-07-11_2022-07-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-11-21_2019-12-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-11-21_2019-12-01.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-10-01_2017-10-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-10-01_2017-10-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-01-11_2017-01-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-01-11_2017-01-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-05-11_2022-05-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-05-11_2022-05-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-06-11_2019-06-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-06-11_2019-06-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-07-11_2019-07-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-07-11_2019-07-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-04-11_2023-04-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-04-11_2023-04-21.json",
       "type": "application/json"
     },
     {
@@ -901,27 +851,22 @@
     },
     {
       "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-03-11_2021-03-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-03-11_2021-03-21.json",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-05-01_2020-05-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-05-01_2020-05-11.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-06-21_2017-07-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-06-21_2017-07-01.json",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-12-01_2022-12-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-12-01_2022-12-11.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2014-11-01_2014-11-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2014-11-01_2014-11-11.json",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2014-10-21_2014-10-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2014-10-21_2014-10-31.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-05-11_2023-05-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-05-11_2023-05-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2014-11-11_2014-11-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2014-11-11_2014-11-21.json",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-09-11_2023-09-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-09-11_2023-09-21.json",
       "type": "application/json"
     },
     {
@@ -931,12 +876,77 @@
     },
     {
       "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-01-22_2023-02-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-01-22_2023-02-01.json",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-05-21_2019-05-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-05-21_2019-05-31.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-11-01_2022-11-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-11-01_2022-11-11.json",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-02-21_2017-03-03/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-02-21_2017-03-03.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-04-21_2021-05-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-04-21_2021-05-01.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-11-11_2022-11-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-11-11_2022-11-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-08-22_2023-09-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-08-22_2023-09-01.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-10-11_2019-10-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-10-11_2019-10-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-04-21_2022-05-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-04-21_2022-05-01.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-11-01_2020-11-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-11-01_2020-11-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-07-01_2017-07-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-07-01_2017-07-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-07-21_2018-07-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-07-21_2018-07-31.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-03-21_2020-03-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-03-21_2020-03-31.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-06-01_2022-06-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-06-01_2022-06-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-04-01_2022-04-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-04-01_2022-04-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-03-22_2022-04-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-03-22_2022-04-01.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-04-01_2019-04-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-04-01_2019-04-11.json",
       "type": "application/json"
     },
     {
@@ -951,207 +961,17 @@
     },
     {
       "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-09-21_2019-10-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-09-21_2019-10-01.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-04-21_2020-05-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-04-21_2020-05-01.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-04-01_2021-04-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-04-01_2021-04-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-08-11_2018-08-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-08-11_2018-08-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-05-11_2019-05-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-05-11_2019-05-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-11-21_2019-12-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-11-21_2019-12-01.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-10-21_2017-10-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-10-21_2017-10-31.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
       "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-10-21_2019-10-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-10-21_2019-10-31.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-01-11_2018-01-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-01-11_2018-01-21.json",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-12-21_2020-12-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-12-21_2020-12-31.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-12-21_2019-12-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-12-21_2019-12-31.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-04-21_2023-05-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-04-21_2023-05-01.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-12-01_2017-12-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-12-01_2017-12-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-10-21_2021-10-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-10-21_2021-10-31.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-01-01_2023-01-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-01-01_2023-01-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-01-01_2021-01-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-01-01_2021-01-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-11-11_2020-11-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-11-11_2020-11-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-04-11_2020-04-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-04-11_2020-04-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-10-11_2018-10-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-10-11_2018-10-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-07-01_2022-07-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-07-01_2022-07-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-03-22_2022-04-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-03-22_2022-04-01.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-02-01_2020-02-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-02-01_2020-02-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-03-11_2019-03-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-03-11_2019-03-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-12-21_2017-12-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-12-21_2017-12-31.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-06-11_2021-06-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-06-11_2021-06-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-01-01_2020-01-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-01-01_2020-01-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-07-01_2020-07-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-07-01_2020-07-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-06-11_2018-06-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-06-11_2018-06-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-08-21_2019-08-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-08-21_2019-08-31.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-10-01_2022-10-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-10-01_2022-10-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-02-21_2020-03-02/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-02-21_2020-03-02.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-03-11_2022-03-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-03-11_2022-03-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-03-21_2019-03-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-03-21_2019-03-31.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-05-22_2023-06-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-05-22_2023-06-01.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-08-01_2019-08-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-08-01_2019-08-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-05-01_2019-05-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-05-01_2019-05-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-12-11_2019-12-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-12-11_2019-12-21.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-09-21_2021-10-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-09-21_2021-10-01.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-04-21_2022-05-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-04-21_2022-05-01.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-07-21_2021-07-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-07-21_2021-07-31.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-08-01_2023-08-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-08-01_2023-08-11.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-09-11_2018-09-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-09-11_2018-09-21.json",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-10-11_2017-10-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-10-11_2017-10-21.json",
       "type": "application/json"
     },
     {
@@ -1161,12 +981,207 @@
     },
     {
       "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-12-01_2019-12-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-12-01_2019-12-11.json",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-09-01_2020-09-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-09-01_2020-09-11.json",
       "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-06-11_2022-06-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-06-11_2022-06-21.json",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-07-21_2019-07-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-07-21_2019-07-31.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-09-11_2021-09-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-09-11_2021-09-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-07-01_2022-07-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-07-01_2022-07-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-10-21_2018-10-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-10-21_2018-10-31.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-03-22_2023-04-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-03-22_2023-04-01.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-03-11_2021-03-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-03-11_2021-03-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-03-11_2023-03-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-03-11_2023-03-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-08-01_2023-08-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-08-01_2023-08-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-03-21_2018-03-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-03-21_2018-03-31.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-06-01_2020-06-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-06-01_2020-06-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-06-11_2018-06-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-06-11_2018-06-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-01-21_2017-01-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-01-21_2017-01-31.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-06-21_2021-07-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-06-21_2021-07-01.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-08-22_2022-09-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-08-22_2022-09-01.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-11-01_2021-11-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2021-11-01_2021-11-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-12-11_2020-12-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-12-11_2020-12-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-05-01_2023-05-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-05-01_2023-05-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-01-21_2018-01-31/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-01-21_2018-01-31.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2014-12-01_2014-12-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2014-12-01_2014-12-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-06-21_2019-07-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-06-21_2019-07-01.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-06-21_2017-07-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-06-21_2017-07-01.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-11-11_2019-11-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-11-11_2019-11-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-04-11_2018-04-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-04-11_2018-04-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-01-11_2023-01-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-01-11_2023-01-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-08-01_2018-08-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-08-01_2018-08-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-01-22_2023-02-01/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-01-22_2023-02-01.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-06-01_2019-06-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-06-01_2019-06-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-08-11_2023-08-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2023-08-11_2023-08-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-11-01_2017-11-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-11-01_2017-11-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-10-11_2022-10-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-10-11_2022-10-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-09-01_2018-09-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-09-01_2018-09-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-11-11_2018-11-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-11-11_2018-11-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-12-11_2017-12-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-12-11_2017-12-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-10-01_2022-10-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2022-10-01_2022-10-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-04-01_2018-04-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-04-01_2018-04-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-11-11_2017-11-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2017-11-11_2017-11-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-05-01_2018-05-11/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2018-05-01_2018-05-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-04-11_2020-04-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2020-04-11_2020-04-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-02-11_2019-02-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-02-11_2019-02-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-08-11_2019-08-21/Sentinel-1_VV_ja_VH_dekadi_mosaiikit_2019-08-11_2019-08-21.json",
       "type": "application/json"
     },
     {
@@ -1176,7 +1191,7 @@
     }
   ],
   "derived_from": "https://pta.data.lit.fmi.fi/stac/catalog/Sentinel-1_dekadi_mosaiikki/Sentinel-1_dekadi_mosaiikki.json",
-  "title": "Sentinel-1 11-days backscatter mosaics: VV and VH polarisation (FMI Tuulihaukka, Puhti)",
+  "title": "Sentinel-1 11-days backscatter mosaics: VV and VH polarisation (FMI Tuulituhohaukka)",
   "extent": {
     "spatial": {
       "bbox": [
@@ -1192,7 +1207,7 @@
       "interval": [
         [
           "2014-10-01T00:00:00Z",
-          "2023-09-11T23:59:59Z"
+          "2023-10-01T23:59:59Z"
         ]
       ]
     }
@@ -1248,7 +1263,7 @@
     ],
     "datetime": {
       "minimum": "2014-10-01T00:00:00Z",
-      "maximum": "2023-09-11T23:59:59Z"
+      "maximum": "2023-10-01T23:59:59Z"
     },
     "visualisation_parameters": {
       "bands": [

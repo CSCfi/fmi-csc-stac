@@ -44,13 +44,13 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Sentinel-2 11-days surface reflectance mosaics (FMI Tuulihaukka)"
+      "title": "Sentinel-2 11-days surface reflectance mosaics (FMI Tuulituhohaukka)"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Sentinel-2 11-days surface reflectance mosaics (FMI Tuulihaukka)"
+      "title": "Sentinel-2 11-days surface reflectance mosaics (FMI Tuulituhohaukka)"
     }
   ],
   "assets": {
@@ -98,6 +98,62 @@
       "href": "https://pta.data.lit.fmi.fi/sen2/s2m_valid_observations/s2m_sdr_20230711-20230720_valid_observations_r20m.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
       "title": "valid_observations",
+      "roles": [
+        "data"
+      ]
+    },
+    "b02": {
+      "href": "https://pta.data.lit.fmi.fi/sen2/s2m_b02/s2m_sdr_20230711-20230720_b02_r20m.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "b02",
+      "roles": [
+        "data"
+      ]
+    },
+    "b03": {
+      "href": "https://pta.data.lit.fmi.fi/sen2/s2m_b03/s2m_sdr_20230711-20230720_b03_r20m.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "b03",
+      "roles": [
+        "data"
+      ]
+    },
+    "b04": {
+      "href": "https://pta.data.lit.fmi.fi/sen2/s2m_b04/s2m_sdr_20230711-20230720_b04_r20m.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "b04",
+      "roles": [
+        "data"
+      ]
+    },
+    "b05": {
+      "href": "https://pta.data.lit.fmi.fi/sen2/s2m_b05/s2m_sdr_20230711-20230720_b05_r20m.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "b05",
+      "roles": [
+        "data"
+      ]
+    },
+    "b06": {
+      "href": "https://pta.data.lit.fmi.fi/sen2/s2m_b06/s2m_sdr_20230711-20230720_b06_r20m.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "b06",
+      "roles": [
+        "data"
+      ]
+    },
+    "b11": {
+      "href": "https://pta.data.lit.fmi.fi/sen2/s2m_b11/s2m_sdr_20230711-20230720_b11_r20m.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "b11",
+      "roles": [
+        "data"
+      ]
+    },
+    "b12": {
+      "href": "https://pta.data.lit.fmi.fi/sen2/s2m_b12/s2m_sdr_20230711-20230720_b12_r20m.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "b12",
       "roles": [
         "data"
       ]
