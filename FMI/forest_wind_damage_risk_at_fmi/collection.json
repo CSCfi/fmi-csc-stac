@@ -26,7 +26,7 @@
     }
   ],
   "derived_from": "https://pta.data.lit.fmi.fi/stac/catalog/Myrskytuhoriskikartta/Myrskytuhoriskikartta.json",
-  "title": "Forest wind damage risk map (FMI Tuulihaukka)",
+  "title": "Forest wind damage risk map (FMI Tuulituhohaukka)",
   "extent": {
     "spatial": {
       "bbox": [

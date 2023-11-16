@@ -1,18 +1,24 @@
-import json
 import argparse
+import urllib
 import getpass
 import requests
 import pystac_client
 import pandas as pd
 import rasterio
-import urllib.request
-from requests.auth import HTTPBasicAuth
+import time
+import json
 from urllib.parse import urljoin
 from pystac import Collection, Item
 
 def change_to_https(request: requests.Request) -> requests.Request: 
     request.url = request.url.replace("http:", "https:")
     return request
+
+def check_conforms(catalog_client):
+    if not catalog_client.conforms_to("COLLECTIONS"):
+        catalog_client.add_conforms_to("COLLECTIONS")
+    if not catalog_client.conforms_to("FEATURES"):
+        catalog_client.add_conforms_to("FEATURES")
 
 def retry_errors(list_of_items, list_of_errors):
     """
@@ -24,18 +30,18 @@ def retry_errors(list_of_items, list_of_errors):
 
     print(" * Trying to add items that timedout")
     while len(list_of_errors) > 0:
-        for i,item in enumerate(list_of_errors):
+        for item in list_of_errors:
             try:
                 list_of_items.append(Item.from_file(item))
-                print(f" * Added item {item}")
+                print(f" * Listed {item}")
                 list_of_errors.remove(item)
             except Exception as e:
-                print(f" ! Timeout on {item} #{i}")
+                print(f" ! {e} on {item}")
 
 def json_convert(content):
 
     """ 
-    A function to map the Sentinel-2 STAC dictionaries into the GeoServer database layout.
+    A function to map the STAC dictionaries into the GeoServer database layout.
     There are different json layouts for Collections and Items. The function checks if the dictionary is of type "Collection",
     or of type "Feature" (=Item).
 
@@ -84,11 +90,8 @@ def json_convert(content):
                 "primary": True,
                 "license": content["license"],
                 "providers": content["providers"], # Providers added
-                "derivedFrom": { # Derived_from added
-                    "href": content["derived_from"],
-                    "rel": "derived_from",
-                    "type": "application/json"
-                },
+                "licenseLink": None,
+                "summaries": content["summaries"],
                 "queryables": [
                     "eo:identifier"
                 ]
@@ -103,6 +106,13 @@ def json_convert(content):
                 new_json["properties"]["licenseLink"] = { #New License URL link
                     "href": link["href"],
                     "rel": "license",
+                    "type": "application/json"
+                }
+            elif link["rel"] == "derived_from":
+                derived_href = link["href"]
+                new_json["properties"]["derivedFrom"] = {
+                    "href": derived_href,
+                    "rel": "derived_from",
                     "type": "application/json"
                 }
 
@@ -140,6 +150,9 @@ def update_catalog(app_host, csc_catalog_client):
     csc_catalog_client - The STAC API path for checking which items are already in the collections
     """
     
+    session = requests.Session()
+    session.auth = ("admin", pwd)
+
     # Get all FMI collections from the app_host
     csc_collections = [col for col in csc_catalog_client.get_collections() if col.id.endswith("at_fmi")]
 
@@ -177,19 +190,19 @@ def update_catalog(app_host, csc_catalog_client):
 
         items = []
         errors = []
-        for i,item in enumerate(item_links):
+        for item in item_links:
             try:
                 items.append(Item.from_file(item))
             except Exception as e:
-                print(f" ! Timeout on {item} #{i}")
+                print(f" ! {e} on {item}")
                 errors.append(item)
 
         # If there were connection errors during the item making process, the item generation for errors is retried
         if len(errors) > 0:
             retry_errors(items, errors)
             print(" * All errors fixed")
-
-        print(f" * Number of items in CSC STAC and FMI for {collection.id}: {len(csc_item_ids)}/{len(items)}")
+        
+        print(f" * Number of items in CSC STAC and FMI: {len(csc_item_ids)}/{len(items)}")
 
         for item in items:
             if item.id not in csc_item_ids:
@@ -222,41 +235,52 @@ def update_catalog(app_host, csc_catalog_client):
                 item.remove_links("license")
 
                 item_dict = item.to_dict()
-                converted = json_convert(item_dict)
-
+                converted_item = json_convert(item_dict)
                 request_point = f"collections/{collection.id}/products"
-                r = requests.post(urljoin(app_host, request_point), json=converted, auth=HTTPBasicAuth("admin", pwd))
+                r = session.post(urljoin(app_host, request_point), json=converted_item)
                 r.raise_for_status()
 
-                print(f" + Added item {item.id} to {collection.id}")
+                print(f" + Added item {item.id}")
 
-        print(f" * All items present in {collection.id}")
+        print(f" * All items present")
+
+        # Update the extents from the FMI collection
+        collection.extent = fmi_collection.extent
+        collection_dict = collection.to_dict()
+        converted_collection = json_convert(collection_dict)
+        request_point = f"collections/{collection.id}/"
+
+        r = session.put(urljoin(app_host, request_point), json=converted_collection)
+        r.raise_for_status()
+        print(f" * Updated collection")
     
 if __name__ == "__main__":
 
     """
-    The first check for REST API password is a --pwd argument. If there is none provided, second check is from a password file. 
+    The first check for REST API password is from a password file. 
     If a password file is not found, the script prompts the user to give a password through CLI
     """
     pw_filename = 'passwords.txt'
     parser = argparse.ArgumentParser()
     parser.add_argument("--host", type=str, help="Hostname of the selected STAC API", required=True)
-    parser.add_argument("--pwd", type=str, help="Password for the API")
     
     args = parser.parse_args()
 
-    if args.pwd:
-        pwd = args.pwd
-    else:
-        try:
-            pw_file = pd.read_csv(pw_filename, header=None)
-            pwd = pw_file.at[0,0]
-        except FileNotFoundError:
-            print("Password not given as an argument and no password file found")
-            pwd = getpass.getpass()
+    try:
+        pw_file = pd.read_csv(pw_filename, header=None)
+        pwd = pw_file.at[0,0]
+    except FileNotFoundError:
+        print("Password not given as an argument and no password file found")
+        pwd = getpass.getpass()
+        
+    start = time.time()
 
     app_host = f"{args.host}/geoserver/rest/oseo/"
-    csc_catalog_client = pystac_client.Client.open(f"{args.host}/geoserver/ogc/stac/v1/")#, request_modifier=change_to_https)
+    csc_catalog_client = pystac_client.Client.open(f"{args.host}/geoserver/ogc/stac/v1/", request_modifier=change_to_https)
+    check_conforms(csc_catalog_client)
 
     print(f"Updating STAC Catalog at {args.host}")
     update_catalog(app_host, csc_catalog_client)
+
+    end = time.time()
+    print(f"Script took {round(end-start, 1)} seconds")

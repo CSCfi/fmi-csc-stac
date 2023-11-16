@@ -31,7 +31,7 @@
     }
   ],
   "derived_from": "https://pta.data.lit.fmi.fi/stac/catalog/MML-DTM-2m/MML-DTM-2m.json",
-  "title": "Digital terrain model products: DTM, aspect, slope (FMI Tuulihaukka)",
+  "title": "Digital terrain model products: DTM, aspect, slope (FMI Tuulituhohaukka)",
   "extent": {
     "spatial": {
       "bbox": [

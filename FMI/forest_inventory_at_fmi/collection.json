@@ -16,7 +16,22 @@
     },
     {
       "rel": "item",
+      "href": "./Metsavarateema_2013_2017/Metsavarateema_2013_2017.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Metsavarateema_2009_2013/Metsavarateema_2009_2013.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
       "href": "./Metsavarateema_2012_2016/Metsavarateema_2012_2016.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./Metsavarateema_2007_2011/Metsavarateema_2007_2011.json",
       "type": "application/json"
     },
     {
@@ -30,28 +45,13 @@
       "type": "application/json"
     },
     {
-      "rel": "item",
-      "href": "./Metsavarateema_2007_2011/Metsavarateema_2007_2011.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Metsavarateema_2013_2017/Metsavarateema_2013_2017.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "item",
-      "href": "./Metsavarateema_2009_2013/Metsavarateema_2009_2013.json",
-      "type": "application/json"
-    },
-    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json"
     }
   ],
   "derived_from": "https://pta.data.lit.fmi.fi/stac/catalog/Metsavarateema/Metsavarateema.json",
-  "title": "Multi-source forest inventory products (FMI Tuulihaukka)",
+  "title": "Multi-source forest inventory products (FMI Tuulituhohaukka)",
   "extent": {
     "spatial": {
       "bbox": [

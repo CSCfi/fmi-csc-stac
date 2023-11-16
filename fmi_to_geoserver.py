@@ -124,13 +124,17 @@ if __name__ == "__main__":
 
     pwd = getpass.getpass()
 
-    collection_name = "sentinel_1_11_days_mosaics_at_fmi"
+    collection_name = "2m_digital_terrain_model_products_at_fmi"
 
     workingdir = Path(__file__).parent
     collection_folder = workingdir / "FMI" / collection_name
 
     app_host = f"{args.host}/geoserver/rest/oseo/"
-    catalog = pystac_client.Client.open(f"{args.host}/geoserver/ogc/stac/v1/", request_modifier=change_to_https)
+
+    if args.host == "http://86.50.229.158:8080/":
+        catalog = pystac_client.Client.open(f"{args.host}/geoserver/ogc/stac/v1/")
+    else:
+        catalog = pystac_client.Client.open(f"{args.host}/geoserver/ogc/stac/v1/", request_modifier=change_to_https)
 
     # Convert the STAC collection json into json that GeoServer can handle
     converted = json_convert(collection_folder / "collection.json")
@@ -159,6 +163,7 @@ if __name__ == "__main__":
 
     print("Uploading items:")
     for i, item in enumerate(items):
+
         with open(collection_folder / item) as f:
             payload = json.load(f)
         # Convert the STAC item json into json that GeoServer can handle

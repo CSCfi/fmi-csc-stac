@@ -44,13 +44,13 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Sentinel-2 monthly index mosaics: NDVI, NDBI, NDMI, NDSI, NDTI (FMI Tuulihaukka)"
+      "title": "Sentinel-2 monthly index mosaics: NDVI, NDBI, NDMI, NDSI, NDTI (FMI Tuulituhohaukka)"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Sentinel-2 monthly index mosaics: NDVI, NDBI, NDMI, NDSI, NDTI (FMI Tuulihaukka)"
+      "title": "Sentinel-2 monthly index mosaics: NDVI, NDBI, NDMI, NDSI, NDTI (FMI Tuulituhohaukka)"
     }
   ],
   "assets": {
@@ -90,6 +90,14 @@
       "href": "https://pta.data.lit.fmi.fi/sen2/s2m_ndbi/pta_sjp_s2ind_ndbi_20160501_20160531.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
       "title": "ndbi",
+      "roles": [
+        "data"
+      ]
+    },
+    "meta": {
+      "href": "https://pta.data.lit.fmi.fi/sen2/s2m_meta/pta_sjp_s2ind_meta_20160501_20160531.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "meta",
       "roles": [
         "data"
       ]

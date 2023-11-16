@@ -26,7 +26,7 @@
     }
   ],
   "derived_from": "https://pta.data.lit.fmi.fi/stac/catalog/Latvuskorkeusmalli/Latvuskorkeusmalli.json",
-  "title": "Canopy height model (FMI Tuulihaukka)",
+  "title": "Canopy height model (FMI Tuulituhohaukka)",
   "extent": {
     "spatial": {
       "bbox": [

@@ -22,7 +22,7 @@ fmi_collections = [
 collection_info = {
     "sentinel_2_annual_mosaics_at_fmi" : {
         "title":
-            "Sentinel-2 annual surface reflectance mosaics (FMI Tuulihaukka)",
+            "Sentinel-2 annual surface reflectance mosaics (FMI Tuulituhohaukka)",
         "description": 
             "Sentinel-2 annual surface reflectance  mosaics. Scale: 10m. Original Sentinel-2 data from ESA Copernicus Sentinel Program, mosaic processing by Sentinel-2 Global Mosaic Service, mosaic postprocessing by SYKE. Coordinate system: ETRS-TM35FIN.",
         "metadata":
@@ -61,7 +61,7 @@ collection_info = {
     },
     "sentinel_2_11_days_mosaics_at_fmi": {
         "title":
-            "Sentinel-2 11-days surface reflectance mosaics (FMI Tuulihaukka)",
+            "Sentinel-2 11-days surface reflectance mosaics (FMI Tuulituhohaukka)",
         "description":
             "Sentinel-2 11-days surface reflectance mosaics. Scale: 10m. Original Sentinel-2 data from ESA Copernicus Sentinel Program, mosaic processing by Sentinel-2 Global Mosaic Service. Mosaic postprocessing by SYKE. Coordinate system: ETRS-TM35FIN.",
         "metadata":
@@ -100,7 +100,7 @@ collection_info = {
     },
     "sentinel_2_monthly_index_mosaics_at_fmi": {
         "title":
-            "Sentinel-2 monthly index mosaics: NDVI, NDBI, NDMI, NDSI, NDTI (FMI Tuulihaukka)",
+            "Sentinel-2 monthly index mosaics: NDVI, NDBI, NDMI, NDSI, NDTI (FMI Tuulituhohaukka)",
         "description":
             "Sentinel-2 monthly index mosaics: NDVI, NDBI, NDMI, NDSI, NDTI. Scale: 10m. Available each year for April-October. Original Sentinel-2 data from ESA Copernicus Sentinel Program, processing by SYKE and FMI. Coordinate system: ETRS-TM35FIN.",
         "metadata":
@@ -139,7 +139,7 @@ collection_info = {
     },
     "sentinel_1_11_days_mosaics_at_fmi": {
         "title":
-            "Sentinel-1 11-days backscatter mosaics: VV and VH polarisation (FMI Tuulihaukka)",
+            "Sentinel-1 11-days backscatter mosaics: VV and VH polarisation (FMI Tuulituhohaukka)",
         "description":
             "Sentinel-1 11-days backscatter mosaics: VV and VH polarisation. Scale: 20m. Original Sentinel-1 data from ESA Copernicus Sentinel Program, processing by FMI. Coordinate system: ETRS-TM35FIN.",
         "metadata":
@@ -171,7 +171,7 @@ collection_info = {
     },
     "sentinel_1_daily_mosaics_at_fmi": {
         "title":
-            "Sentinel-1 daily backscatter mosaics: VV and VH polarisation (FMI Tuulihaukka)",
+            "Sentinel-1 daily backscatter mosaics: VV and VH polarisation (FMI Tuulituhohaukka)",
         "description":
             "Sentinel-1 daily backscatter mosaics: VV and VH polarisation. Scale: 20m. Original Sentinel-1 data from ESA Copernicus Sentinel Program, processing by FMI. Coordinate system: ETRS-TM35FIN.",
         "metadata":
@@ -203,7 +203,7 @@ collection_info = {
     },
     "sentinel_1_tiles_at_fmi": {
         "title":
-            "Sentinel-1 backscatter tiles: VV and VH polarisation (FMI Tuulihaukka)",
+            "Sentinel-1 backscatter tiles: VV and VH polarisation (FMI Tuulituhohaukka)",
         "description":
             "Sentinel-1 backscatter tiles: VV and VH polarisation. Scale: 20m. Original Sentinel-1 data from ESA Copernicus Sentinel Program, processing by FMI. Coordinate system: ETRS-TM35FIN.",
         "metadata":
@@ -235,7 +235,7 @@ collection_info = {
     },
     "landsat_yearly_mosaics_at_fmi": {
         "title":
-            "Landsat annual surface reflectance mosaics (FMI Tuulihaukka)",
+            "Landsat annual surface reflectance mosaics (FMI Tuulituhohaukka)",
         "description":
             "Landsat annual surface reflectance mosaics. Scale: 30m. Avaialble years: 1985, 1990 and 1995. Original Landsat imagery from USGS and ESA, processing by Blom Kartta. Coordinate system: ETRS-TM35FIN.",
         "metadata":
@@ -279,7 +279,7 @@ collection_info = {
     },
     "landsat_annual_index_mosaics_at_fmi": {
         "title":
-            "Landsat (4 and 5) yearly index mosaics: NDVI, NDBI, NDMI, NDSI, NDTI (FMI Tuulihaukka)",
+            "Landsat (4 and 5) yearly index mosaics: NDVI, NDBI, NDMI, NDSI, NDTI (FMI Tuulituhohaukka)",
         "description":
             "Landsat (4 and 5) yearly index mosaics: NDVI, NDBI, NDMI, NDSI, NDTI. Scale: 30m. Available for the years 1984-2011. Landsat-4/5 imagery from United States Geological Survey. Mosaics processed by SYKE at Finnish National Satellite Data Centre. Coordinate system: ETRS-TM35FIN.",
         "metadata":
@@ -317,7 +317,7 @@ collection_info = {
     },
     "forest_inventory_at_fmi": {
         "title":
-            "Multi-source forest inventory products (FMI Tuulihaukka)",
+            "Multi-source forest inventory products (FMI Tuulituhohaukka)",
         "description":
             "Multi-source forest inventory products. Scale: 20m. Coordinate system: ETRS-TM35FIN.",
         "metadata":
@@ -348,7 +348,7 @@ collection_info = {
     },
     "canopy_height_model_at_fmi": {
         "title":
-            "Canopy height model (FMI Tuulihaukka)",
+            "Canopy height model (FMI Tuulituhohaukka)",
         "description":
             "Canopy height model. Scale: 1m. Coordinate system: ETRS-TM35FIN.",
         "metadata":
@@ -379,7 +379,7 @@ collection_info = {
     },
     "2m_digital_terrain_model_products_at_fmi": {
         "title":
-            "Digital terrain model products: DTM, aspect, slope (FMI Tuulihaukka)",
+            "Digital terrain model products: DTM, aspect, slope (FMI Tuulituhohaukka)",
         "description":
             "Digital terrain model products: DTM, aspect, slope. Scale: 2m. Coordinate system: ETRS-TM35FIN.",
         "metadata":
@@ -410,7 +410,7 @@ collection_info = {
     },
     "forest_wind_damage_risk_at_fmi": {
         "title":
-            "Forest wind damage risk map (FMI Tuulihaukka)",
+            "Forest wind damage risk map (FMI Tuulituhohaukka)",
         "description":
             "Forest storm damage risk map. Scale: 16m. Coordinate system: ETRS-TM35FIN.",
         "metadata":
@@ -441,7 +441,7 @@ collection_info = {
     },
     "daily_wind_damage_risk_at_fmi": {
         "title":
-            "Daily wind damage risk map (FMI Tuulihaukka)",
+            "Daily wind damage risk map (FMI Tuulituhohaukka)",
         "description":
             "Daily wind damage risk map. Scale: 500m. Coordinate system: ETRS-TM35FIN.",
         "metadata":
