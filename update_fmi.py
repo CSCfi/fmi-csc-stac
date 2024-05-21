@@ -12,6 +12,8 @@ from pystac import Collection, Item
 
 def change_to_https(request: requests.Request) -> requests.Request: 
     request.url = request.url.replace("http:", "https:")
+    # This is for to help filtering logging, not needed otherwise
+    request.headers["User-Agent"] = "update-script"
     return request
 
 def retry_errors(list_of_items, list_of_errors):
@@ -146,6 +148,7 @@ def update_catalog(app_host, csc_catalog_client):
     
     session = requests.Session()
     session.auth = ("admin", pwd)
+    log_headers = {"User-Agent": "update-script"} # Added for easy log-filtering
 
     # Get all FMI collections from the app_host
     csc_collections = [col for col in csc_catalog_client.get_collections() if col.id.endswith("at_fmi")]
@@ -231,7 +234,7 @@ def update_catalog(app_host, csc_catalog_client):
                 item_dict = item.to_dict()
                 converted_item = json_convert(item_dict)
                 request_point = f"collections/{collection.id}/products"
-                r = session.post(urljoin(app_host, request_point), json=converted_item)
+                r = session.post(urljoin(app_host, request_point), headers=log_headers, json=converted_item)
                 r.raise_for_status()
 
                 print(f" + Added item {item.id}")
@@ -244,7 +247,7 @@ def update_catalog(app_host, csc_catalog_client):
         converted_collection = json_convert(collection_dict)
         request_point = f"collections/{collection.id}/"
 
-        r = session.put(urljoin(app_host, request_point), json=converted_collection)
+        r = session.put(urljoin(app_host, request_point), headers=log_headers, json=converted_collection)
         r.raise_for_status()
         print(f" * Updated collection")
     
@@ -276,4 +279,4 @@ if __name__ == "__main__":
     update_catalog(app_host, csc_catalog_client)
 
     end = time.time()
-    print(f"Script took {round(end-start, 1)} seconds")
+    print(f"Script took {end-start} seconds")
