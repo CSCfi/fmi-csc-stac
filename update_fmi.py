@@ -12,7 +12,7 @@ from pystac import Collection, Item
 
 def change_to_https(request: requests.Request) -> requests.Request: 
     request.url = request.url.replace("http:", "https:")
-    # This is for to help filtering logging, not needed otherwise
+    # This is to help filtering logging, not needed otherwise
     request.headers["User-Agent"] = "update-script"
     return request
 
